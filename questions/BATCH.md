@@ -670,7 +670,232 @@
        </p>
         </details>
 
-45. Question?
+45. Which of these AWS services provides a serverless approach to building applications in AWS?
+    - A. Amazon Lightsail
+    - B. AWS Lambda
+    - C. AWS Elastic Container Service (ECS)
+    - D. AWS Elastic Beanstalk
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: - AWS Lambda - Serverless - Do NOT worry about servers
+   </p>
+    </details>
+
+46. Which of these S3 storage classes is recommended for archive data that can be accessed in 24 hours when needed?
+    - A. Standard
+    - B. One Zone-IA
+    - C. Glacier
+    - D. Glacier Deep Archive
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+            - Standard - Frequently accessed data. First Byte: ms
+            - Standard-IA - Long-lived, infrequently accessed data (backups for disaster recovery). First Byte: ms
+            - One Zone-IA - Long-lived, infrequently accessed, non-critical data (Easily re-creatable data - thumbnails for images). First Byte: ms
+            - Intelligent-Tiering - Long-lived data with changing or unknown access patterns
+            - Glacier - Archive data with retrieval times ranging from minutes to hours
+            - Glacier Deep Archive - Archive data that rarely, if ever, need to be accessed with retrieval times in a few hours
+            - Reduced Redundancy (Not recommended) - Frequently accessed, non-critical data
+       </p>
+        </details>
+
+47. Which of these AWS services gives you real-time guidance to help you provision your resources following AWS best practices?
+    - A. AWS Trusted Advisor
+    - B. AWS CloudTrail
+    - C. AWS CloudWatch
+    - D. AWS X-Ray
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: 
+            AWS Trusted Advisor: Provides Cost optimization, performance, security & fault tolerance recommendations
+                - Cost Optimization: Unused resources, Other opportunities (ex: reserved instances)
+                - Security: Settings to make your AWS solution more secure (ex: security group)
+                - Fault Tolerance: Redundancy improvements, over-utilized resources
+                - Performance: Improve speed and responsiveness of your AWS solutions
+                - Service Limits: Is your usage is more than 80% of service limits?
+       </p>
+        </details>
+
+48. Which of these IAM entities can have policies attached with them?
+    - A. All of the Above
+    - B. IAM User
+    - C. IAM Role
+    - D. IAM Group
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation:  - Can be attached with IAM users, IAM groups and IAM Roles
+   </p>
+    </details>
+
+49. Which of these AWS services can be used to store user sessions from web applications?
+    - A. Amazon ElastiCache
+    - B. Amazon RDS
+    - C. Amazon S3
+    - D. Amazon Redshift
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation:  - In memory databases/caches - Amazon ElastiCache - Applications needing microsecond responses - Cache Query Results from databases. Can act as a session store as well.
+   </p>
+    </details>
+
+50. Which of these AWS services are auto-scaling by default(Select 2)?
+    - A. Amazon RDS
+    - B. Amazon Elastic Block Store (EBS)
+    - C. Amazon EC2
+    - D. Amazon Elastic File System (EFS)
+    - E. Amazon S3
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D E
+        <p>
+        Explanation: Amazon S3 and EFS are auto-scaling.
+   </p>
+    </details>
+
+51. Which of these sits between public subnet (VPC) resources and the internet (provides access to the internet to and from public subnet resources)?
+    - A. NAT Gateway
+    - B. NAT instance
+    - C. Security Group
+    - D. Internet Gateway
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+            An Internet Gateway enables internet communication for public subnets
+                - Public Subnet: Subnet having a route to an internet gateway
+                - Private Subnet: Subnet DOES NOT have a route to an internet gateway
+   </p>
+    </details>
+
+52. Which of these AWS services would you use to check for security groups having unrestricted access (0.0.0.0/0)?
+    - A. AWS Config
+    - B. AWS Trusted Advisor
+    - C. AWS CloudTrail
+    - D. AWS Organizations
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            AWS Trusted Advisor: Provides Cost optimization, performance, security & fault tolerance recommendations
+                - Cost Optimization: Unused resources, Other opportunities (ex: reserved instances)
+                - Security : Settings to make your AWS solution more secure (ex: security group)
+       </p>
+        </details>
+
+53. Which of these AWS services provides inventory of your AWS resources including resource history?
+    - A. Amazon CloudWatch
+    - B. AWS CloudTrail
+    - C. Amazon GuardDuty
+    - D. AWS Config
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+            - AWS Config - Auditing: Complete inventory of your AWS resources. Resource history and change tracking - Find how a resource was configured at any point in time Governance - Customize Config Rules for specific resources or for entire AWS account and Continuously evaluate compliance against the desired configuration
+   </p>
+    </details>
+
+54. Which of these AWS services helps you to track the CPU Utilization of an EC2 instance?
+    - A. Amazon GuardDuty
+    - B. Amazon CloudWatch
+    - C. AWS CloudTrail
+    - D. AWS Config
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation:  
+- Amazon CloudWatch Metrics - Metrics for AWS services Example EC2: CPUUtilization, NetworkIn, NetworkOut
+   </p>
+    </details>
+
+55. Which of these allow you to execute commands and create scripts to interact with AWS services from the command line?
+    - A. AWS Management Console
+    - B. AWS CLI
+    - C. AWS SDKs
+    - D. AWS Management Console Mobile App
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            AWS CLI (Command Line Interface)
+                - Execute Commands
+                - Create Scripts
+                - Use IAM Users Credentials - access key ID and secret access key
+       </p>
+        </details>
+
+56. Which of these architectural principles helps you to avoid cascading failures while architecting your cloud applications?
+    - A. Maintain Redundancy
+    - B. Prefer loosely coupled architectures
+    - C. Scale horizontally
+    - D. Automate recovery from failure
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: - Prefer loosely coupled architectures: SQS, SNS
+   </p>
+    </details>
+
+57. Which of these are inherited controls (controls that a customer fully inherits from AWS) under the shared responsibility model?
+    - A. Awareness & Training
+    - B. Configuration Management
+    - C. Physical and environmental controls
+    - D. Patch Management
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+58. Which of these AWS services would you reach out to for getting technical expertise and advice from AWS Teams for Application Migration, Application Modernization etc?
+    - A. AWS Partner Network
+    - B. AWS Systems Manager
+    - C. AWS Marketplace
+    - D. AWS Professional Services
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation:  - AWS Professional Services - Get help from AWS for your cloud migration. Get technical expertise and advice from AWS Teams for Application Migration, Application Modernization, etc
+   </p>
+    </details>
+
+59. Which of these AWS support plans is the cheapest option providing business hour email access to support teams?
+    - A. Enterprise
+    - B. Basic
+    - C. Developer
+    - D. Business
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+            - Basic Plan - 24x7 access to customer service and forums
+            - Developer Plan - Business hours email access to Cloud Support Associates  Unlimited cases / 1 primary contact
+            - Business Plan - 24x7 phone, email, and chat access to Cloud Support Engineers Unlimited cases / unlimited contacts (IAM supported)
+            - Enterprise Plan - Same as Business Plan
+       </p>
+        </details>
+
+60. Question?
     - A.
     - B.
     - C.
@@ -683,7 +908,7 @@
    </p>
     </details>
 
-46. Question?
+61. Question?
     - A.
     - B.
     - C.
@@ -696,7 +921,7 @@
    </p>
     </details>
 
-47. Question?
+62. Question?
     - A.
     - B.
     - C.
@@ -709,7 +934,7 @@
    </p>
     </details>
 
-48. Question?
+63. Question?
     - A.
     - B.
     - C.
@@ -722,7 +947,7 @@
    </p>
     </details>
 
-49. Question?
+64. Question?
     - A.
     - B.
     - C.
@@ -735,7 +960,7 @@
    </p>
     </details>
 
-50. Question?
+65. Question?
     - A.
     - B.
     - C.
@@ -748,7 +973,7 @@
    </p>
     </details>
 
-51. Question?
+66. Question?
     - A.
     - B.
     - C.
@@ -761,7 +986,7 @@
    </p>
     </details>
 
-52. Question?
+67. Question?
     - A.
     - B.
     - C.
@@ -774,20 +999,7 @@
    </p>
     </details>
 
-53. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-54. Question?
+68. Question?
     - A.
     - B.
     - C.
