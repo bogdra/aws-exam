@@ -262,7 +262,251 @@
        </p>
         </details>
 
-18. Question?
+18. Which of these allow you to monitor network traffic and troubleshoot network connectivity issues (NACL and/or Security Groups misconfiguration)?
+    - A. NAT Gateway
+    - B. VPC Peering
+    - C. VPC Endpoint
+    - D. VPC Flow Logs
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation:  Overall explanation
+            - VPC Flow Logs: Enable logs to debug problems
+            - VPC Peering - Connect VPCs from same or different AWS accounts (across regions)
+            - Allows private communication between the connected VPCs
+            - Peering uses a request/accept protocol (Owner of requesting VPC sends a request)
+            - Peering is not transitive.
+       </p>
+        </details>
+
+19. Which of these provides you with access to AWS auditor issued reports, certifications, accreditations and other third-party attestations?
+    - A. Amazon GuardDuty
+    - B. AWS Security Hub
+    - C. AWS Artifact
+    - D. Amazon Macie
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+    <ul>
+            <li> - AWS Artifact - Self-service portal for on-demand access to AWS compliance reports, certifications, accreditations, and other third-party attestations. Review, accept, and manage your agreements with AWS.</li>
+            <li> - Amazon Macie - Fully managed data security and privacy service  Uses machine learning to identify sensitive data in Amazon S3 (Recommendation) When migrating data to AWS use S3 for staging and Run Macie</li>
+            <li> - Amazon GuardDuty - Continuously monitor AWS environment for suspicious activity (Intelligent Threat Detection). Analyzes AWS CloudTrail events, VPC Flow Logs etc. </li>
+            <li> - AWS Security Hub - Consolidated view of your security status in AWS. Automate security checks, manage security findings, and identify the highest priority security issues across your AWS environment.</li>
+    </ul>
+ </p>
+    </details>
+
+20. Which of these is used to continuously monitor AWS environment for suspicious activity by analyzing AWS CloudTrail events, VPC Flow Logs etc?
+   - A. AWS Shield
+   - B. Amazon GuardDuty
+   - C. Amazon Macie
+   - D. AWS WAF (Web Application Firewall)
+
+   <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+       <p>
+       Explanation: - Amazon GuardDuty - Continuously monitor AWS environment for suspicious activity (Intelligent Threat Detection). Analyzes AWS CloudTrail events, VPC Flow Logs etc.
+   </p>
+    </details>
+
+21. Which of these are pillars in the AWS Well Architected Framework (Select 2)?
+   - A. Resilience
+   - B. Operational Excellence
+   - C. Cost Optimization
+   - D. Efficiency
+   - E. Provisioning servers
+
+   <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B C
+       <p>
+       Explanation: - Well Architected Framework - Five Pillars
+            - Operational Excellence
+              - Security
+              - Reliability
+              - Performance Efficiency
+              - Cost Optimization
+     </p>
+      </details>
+
+22. Which of these are NOT shared responsibilities between AWS and customer under the Shared Responsibility Model? (Select 2)
+    - A. Adherence of IT Infrastructure with IT security standards
+    - B. Controls based on the applications deployed to AWS
+    - C. Patch Management
+    - D. Awareness & Training
+    - E. Configuration Management
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A B
+        <p>
+        Explanation: 
+            Compliance responsibilities will be shared
+        - AWS ensures adherence of IT Infrastructure with IT security standards
+        - AWS provides information on its IT control environment (white papers,  certifications, etc)
+        - Customers perform their evaluation (use AWS control and compliance documentation)
+       </p>
+        </details>
+
+    23. Which of these AWS services helps you to define Service control policies(SCP) to define cross account restrictions (Example: Require MFA to stop an Amazon EC2 instance)?
+        - A. AWS CloudTrail
+        - B. AWS Organizations
+        - C. AWS Trusted Advisor
+        - D. AWS Config
+
+        <details markdown=1><summary markdown='span'>Answer</summary>
+          Correct answer: B
+            <p>
+            Explanation:
+            - AWS Organizations: Simple management for multiple AWS accounts
+            - Consolidated bill for AWS accounts
+            - Centralized management for AWS Config Rules
+            - Send AWS CloudTrail data to one S3 bucket (across accounts)
+            - AWS Firewall Manager to manage firewall rules (WAF, Shield and Security Groups)
+   </p>
+    </details>
+
+24. Which of these is used to make programmatic calls against AWS Services?
+    - A. IAM User Access keys (access key ID and secret access key)
+    - B. IAM Group user id and password
+    - C. IAM User user id and password
+    - D. - AWS CLI (Command Line Interface)
+         - Execute Commands
+         - Create Scripts
+         - Use IAM Users Credentials - access key ID and secret access key
+
+        <details markdown=1><summary markdown='span'>Answer</summary>
+          Correct answer: A
+        </details>
+
+25. Which of these databases is recommended for data-warehousing, reporting and analytics usecases?
+    - A. Amazon DynamoDB
+    - B. Amazon ElastiCache
+    - C. Amazon RDS
+    - D. Amazon Redshift
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+            - Relational OLAP databases - Amazon Redshift - Datewarehouse, reporting, analytics & intelligence apps. Analyse Petabytes of data.
+   </p>
+    </details>
+
+26. Which of these AWS services helps you to run pre-configured development stacks like LAMP, MEAN in AWS at a low predictable monthly price?
+    - A. AWS Elastic Beanstalk
+    - B. Amazon Lightsail
+    - C. AWS Lambda
+    - D. AWS Elastic Container Service (ECS)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation:  - Amazon Lightsail - Pre-configured development stacks in AWS - LAMP, MEAN. Run websites on WordPress.Low, predictable monthly price.
+   </p>
+    </details>
+
+27. Which of these allows instances in a private subnet to download software patches while denying inbound traffic from internet?
+    - A. Internet Gateway
+    - B. AWS Direct Connect
+    - C. NAT Gateway
+    - D. Security Group
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: - NAT Devices allow instances in a private subnet to download software patches while denying inbound traffic from the internet
+   </p>
+    </details>
+
+28. Which of these are used to manage permissions for a set of users in AWS?
+    - A. IAM Policy
+    - B. IAM User
+    - C. IAM Group
+    - D. IAM Role
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation:   IAM groups: Collection of IAM users
+   </p>
+    </details>
+
+29. Which of these AWS services can be used to protect Amazon Route 53, CloudFront, EC2 instances and Elastic Load Balancers (ELB) from distributed denial of service (DDoS) attacks?
+    - A. AWS Shield
+    - B. AWS KMS
+    - C. AWS WAF (Web Application Firewall)
+    - D. AWS Cloud HSM (Hardware Security Module)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: 
+            - AWS Shield - Shields from Distributed Denial of Service (DDoS) attacks
+            - Disrupt normal traffic of a server by overwhelming it with a flood of Internet traffic
+            - Protect Amazon Route 53, CloudFront, EC2 instances and Elastic Load Balancers (ELB)
+       </p>
+        </details>
+
+30. Which of these AWS services provides predefined, customizable rules that are used to evaluate whether your AWS resources comply with common best practices?
+    - A. Amazon CloudWatch
+    - B. Amazon GuardDuty
+    - C. AWS Config
+    - D. AWS CloudTrail
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+            AWS Config - Auditing: Complete inventory of your AWS resources. Resource history and change tracking - Find how a resource was configured at any point in time Governance - Customize Config Rules for specific resources or for entire AWS account and Continuously evaluate compliance against the desired configuration
+   </p>
+    </details>
+
+31. Which of these is an ephemeral storage that can be attached with an EC2 instance?
+    - A. Amazon EC2 Instance Store
+    - B. Amazon Elastic File System (EFS)
+    - C. Amazon Elastic Block Store (EBS)
+    - D. AWS Storage Gateway
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: 
+             - Block - Storage connected to one EC2 instance. Your Hard Disks.
+             - Elastic Block Storage (EBS - Permanent)
+             - EC2 Instance Store (Ephemeral)
+   </p>
+    </details>
+
+32. Which of these AWS services helps you to run commands and apply patches on a group of Amazon EC2 instances?
+    - A. AWS Marketplace
+    - B. AWS Professional Services
+    - C. AWS Systems Manager
+    - D. AWS Budgets
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+            - AWS Systems Manager - Run commands(operational tasks) on Amazon EC2 instances.  Manage your OS and Database patches.
+   </p>
+    </details>
+
+33. Which of these AWS services can be used to protect your web applications from Common Vulnerabilities and Exposures (CVE) - information-security vulnerabilities and exposures?
+    - A. AWS WAF (Web Application Firewall)
+    - B. AWS Shield
+    - C. AWS Cloud HSM (Hardware Security Module)
+    - D. AWS KMS
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: AWS WAF protects your web applications from OWASP Top 10 exploits, CVE and a lot more!
+   </p>
+    </details>
+
+34. Question?
     - A.
     - B.
     - C.
@@ -275,7 +519,163 @@
    </p>
     </details>
 
-19. Question?
+35. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+36. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+37. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+38. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+39. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+40. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+41. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+42. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+43. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+44. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+45. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+46. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+47. Question?
     - A.
     - B.
     - C.
