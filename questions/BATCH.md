@@ -506,148 +506,169 @@
    </p>
     </details>
 
-34. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+34. Which of these is NOT a pillar in the AWS Well Architected Framework?
+    - A. Resilience
+    - B. Security
+    - C. Reliability
+    - D. Operational Excellence
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: A
         <p>
         Explanation: 
    </p>
     </details>
 
-35. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+35. Which of these databases supports relational databases with tables and SQL queries(Select 2)?
+    - A. Amazon ElastiCache
+    - B. Amazon Neptune
+    - C. Amazon Redshift
+    - D. Amazon RDS
+    - E. Amazon DynamoDB
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C D
+        <p>
+        Explanation:
+        - Relational OLAP databases - Amazon Redshift - Date warehouse, reporting, analytics & intelligence apps. Analyze Petabytes of data.
+   </p>
+    </details>
+
+36. Which of these are attached to an IAM entity to provide it with permissions to access AWS resources?
+    - A. IAM User
+    - B. IAM Group
+    - C. IAM Role
+    - D. IAM Policy
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
+        <p>
+        Explanation:  - Can be attached with IAM users, IAM groups and IAM Roles
+   </p>
+    </details>
+
+37. Which of these are the types of Elastic Load Balancers available in AWS (select 3)?
+    - A. Container Load Balancer
+    - B. Classic Load Balancer
+    - C. Network Load Balancer
+    - D. Application Load Balancer
+    - E. Modern Load Balancer
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B C D
+        <p>
+        Explanation: 
+            - Classic Load Balancer: Old generation. Not Recommended by AWS.
+            - Application Load Balancer: Most popular and frequently used ELB in AWS. Supports HTTP/HTTPS (Layer 7) and Advanced Routing(Headers, Query Params, Path and Host Based)
+            - Network Load Balancer: For very high performance usecases
+       </p>
+        </details>
+
+38. Which of these AWS services can be used to protect your web applications from malicious requests from specific IP Addresses?
+    - A. AWS WAF (Web Application Firewall)
+    - B. AWS KMS
+    - C. AWS Shield
+    - D. AWS Cloud HSM (Hardware Security Module)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation:  
+        - AWS WAF protects your web applications from OWASP Top 10 exploits, CVE and a lot more!
+        - Web traffic filtering : block attacks - Filter traffic based on IP addresses, geo locations, HTTP headers and body (block attacks from specific user-agents, bad bots, or content scrapers)
+        - AWS Shield - Shields from Distributed Denial of Service (DDoS) attacks
+   </p>
+    </details>
+
+39. Which of these services automates the discovery of sensitive data at scale and lowers the cost of protecting your data in AWS?
+    - A. AWS Shield
+    - B. Amazon Macie
+    - C. Amazon GuardDuty
+    - D. AWS WAF (Web Application Firewall)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            - Amazon Macie - Fully managed data security and privacy service  Uses machine learning to identify sensitive data in Amazon S3 (Recommendation) When migrating data to AWS use S3 for staging and Run Macie
+            - Amazon GuardDuty - Continuously monitor AWS environment for suspicious activity (Intelligent Threat Detection). Analyzes AWS CloudTrail events, VPC Flow Logs etc.
+   </p>
+    </details>
+
+40. Which of these are shared responsibilities between AWS and customer under the Shared Responsibility Model? (Select 2)
+    - A. Patch Management
+    - B. Adherence of IT Infrastructure with IT security standards
+    - C. Providing information on the AWS IT control environment
+    - D. Controls based on the applications deployed to AWS
+    - E. Configuration Management
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A E
         <p>
         Explanation: 
    </p>
     </details>
 
-36. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+41. Which of these can be used to create network storage that can be attached with only one EC2 instance?
+    - A. AWS Storage Gateway
+    - B. Amazon Elastic Block Store (EBS)
+    - C. Amazon S3
+    - D. Amazon Elastic File System (EFS)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+         Elastic Block Storage (EBS - Permanent)
+            - Instance Store (Ephemeral)
+       </p>
+        </details>
+
+42. Which of these provides hybrid storage (AWS + On Premises) for applications running on-premises?
+    - A. Amazon Elastic File System (EFS)
+    - B. Amazon Elastic Block Store (EBS)
+    - C. Amazon S3
+    - D. AWS Storage Gateway
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
         <p>
-        Explanation: 
+        Explanation: - Hybrid - AWS Storage Gateway - Cloud + On Premise
    </p>
     </details>
 
-37. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+43. Which of these helps you to investigate and quickly identify the root cause of potential security issues?
+    - A. AWS Artifact
+    - B. Amazon Detective
+    - C. Amazon GuardDuty
+    - D. Amazon Macie
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B
         <p>
         Explanation: 
+          - Amazon Detective - Investigate and quickly identify the root cause of potential security issues. Automatically collect log data from your AWS resources and uses machine learning to help you visualize and conduct security investigations.
+          - Amazon Macie - Fully managed data security and privacy service  Uses machine learning to identify sensitive data in Amazon S3 (Recommendation) When migrating data to AWS use S3 for staging and Run Macie
+          - Amazon GuardDuty - Continuously monitor AWS environment for suspicious activity (Intelligent Threat Detection). Analyzes AWS CloudTrail events, VPC Flow Logs etc.
    </p>
     </details>
 
-38. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+44. Which of these represents the need for an IAM Role?
+    - A. Has User id and password attached to access AWS Resources
+    - B. Has Temporary permissions to make AWS service requests
+    - C. Helps you to manage permissions for multiple IAM users
+    - D. Has Access keys (access key ID and secret access key) to access AWS Resources
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B
         <p>
         Explanation: 
-   </p>
-    </details>
-
-39. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-40. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-41. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-42. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-43. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-44. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-        <p>
-        Explanation: 
-   </p>
-    </details>
+            IAM Roles: Temporary identities
+                - Does NOT have credentials attached
+                - (Advantage) Expire after a set period of time
+                - Used to give access to federated users or EC2 instances
+       </p>
+        </details>
 
 45. Question?
     - A.
@@ -656,7 +677,7 @@
     - D.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: E
         <p>
         Explanation: 
    </p>
@@ -669,7 +690,7 @@
     - D.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: E
         <p>
         Explanation: 
    </p>
@@ -682,7 +703,98 @@
     - D.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+48. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+49. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+50. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+51. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+52. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+53. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+54. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
         <p>
         Explanation: 
    </p>
