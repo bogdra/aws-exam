@@ -895,7 +895,201 @@
        </p>
         </details>
 
-60. Question?
+60. Compared to the traditional approach (data centers), how is cloud different?
+    - A. Increased capital expenditure (capex) and reduced operational expenditure (opex)
+    - B. Reduced capital expenditure (capex) and increased operational expenditure (opex)
+    - C. Reduced capital expenditure (capex) and reduced operational expenditure (opex)
+    - D. Increased capital expenditure (capex) and increased operational expenditure (opex)
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            Advantages of Cloud:
+                - Trade "capital expense (capex)" for "variable expense (opex)" (Pay-as-you-go)
+                  - Benefit from massive economies of scale
+                  - Stop guessing capacity
+                  - Increase speed and agility
+                  - Stop spending money running and maintaining data centers
+                  - "Go global" in minutes
+         </p>
+          </details>
+
+61. Which of these can be used to setup a MySQL database in AWS? (Select 2)
+    - A. Amazon RDS
+    - B. Amazon EC2
+    - C. Amazon Redshift
+    - D. Amazon DynamoDB
+    - E. Amazon ElastiCache
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A B
+        <p>
+        Explanation: 
+            - Use Managed Service : Amazon RDS
+            - Setup your own database: Amazon EC2 + Elastic Block Store (Amazon EBS)
+   </p>
+    </details>
+
+62. Which of these is an AWS managed service to allow instances in a private subnet to download software patches while denying inbound traffic from the internet?
+    - A. Internet Gateway
+    - B. NAT Gateway
+    - C. NAT instance
+    - D. AWS Direct Connect
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            Overall explanation
+            NAT Devices allow instances in a private subnet to download software patches while denying inbound traffic from the internet
+                - NAT Instance: Install an EC2 instance with specific NAT AMI and configure as a gateway
+       </p>
+        </details>
+
+63. Which of these is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates?
+    - A. AWS CodePipeline
+    - B. AWS CodeCommit
+    - C. Amazon CloudWatch
+    - D. AWS CodeDeploy
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: 
+            CI/CD Tools:
+                - AWS CodeCommit - Private source control (Git)
+                - AWS CodePipeline - Orchestrate CI/CD pipelines
+                - AWS CodeBuild - Build and Test Code (packages and containers)
+                - AWS CodeDeploy - Automate Deployment(EC2, On premises, ECS, Lambda etc)
+       </p>
+        </details>
+
+64. Which of these is NOT a category of checks provided by Trusted Advisor?
+    - A. Cost optimization
+    - B. Reliability
+    - C. Performance
+    - D. Service limits
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            AWS Trusted Advisor: Provides Cost optimization, performance, security & fault tolerance recommendations
+                - Cost Optimization: Unused resources, Other opportunities (ex: reserved instances)
+                - Security: Settings to make your AWS solution more secure (ex: security group)
+                - Fault Tolerance: Redundancy improvements, over-utilized resources
+                - Performance: Improve speed and responsiveness of your AWS solutions
+                - Service Limits: Is your usage is more than 80% of service limits?
+       </p>
+        </details>
+
+65. Which of these AWS services helps you to run commands and apply patches on a group of Amazon EC2 instances?
+    - A. AWS Marketplace
+    - B. AWS Systems Manager
+    - C. AWS Budgets
+    - D. AWS Professional Services
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+             - AWS Systems Manager - Run commands(operational tasks) on Amazon EC2 instances.  Manage your OS and Database patches.
+             - AWS Marketplace - Digital catalog to find, test, buy, and deploy licensed software solutions using flexible pricing options: Bring Your Own License (BYOL), free trial, pay-as-you-go, hourly, monthly etc.
+       </p>
+        </details>
+
+66. Which of these is NOT a pillar in the AWS Well Architected Framework?
+    - A. Operational Excellence
+    - B. Security
+    - C. Reliability
+    - D. Resilience
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: 
+            Well Architected Framework - Five Pillars
+                - Operational Excellence
+                - Security
+                - Reliability
+                - Performance Efficiency
+                - Cost Optimization
+       </p>
+        </details>
+
+67. Which of these are pillars in the AWS Well Architected Framework (Select 2)?
+    - A. Operational Excellence
+    - B. Resilience
+    - C. Provisioning servers
+    - D. Cost Optimization
+    - D. Efficiency
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A D
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+68. Which of these are shared responsibilities between AWS and customer under the Shared Responsibility Model? (Select 2)
+    - A. Adherence of IT Infrastructure with IT security standards
+    - B. Providing information on the AWS IT control environment
+    - C. Patch Management
+    - D. Configuration Management
+    - D. Controls based on the applications deployed to AWS
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C D
+        <p>
+        Explanation: 
+
+    THREE TYPES OF IT CONTROLS
+        - Inherited Controls (Customer fully inherits from AWS): Physical and Environmental controls
+        - Shared Controls (Controls shared by AWS and Customer)
+            >>  Patch Management: AWS (Infrastructure Patches), Customer (Guest OS Patches and Software Patches)
+            >>  Configuration Management: AWS (Infrastructure), Customer (Guest OS, databases, and applications)
+            >>  Awareness & Training
+        - Customer Owned Controls
+            >>   Controls based on the applications deployed to AWS
+            >>  Data Security Requirements
+         </p>
+    </details>
+
+69. Which of these are NOT shared responsibilities between AWS and customer under the Shared Responsibility Model? (Select 2)
+    - A. Adherence of IT Infrastructure with IT security standards
+    - B. Awareness & Training
+    - C. Patch Management
+    - D. Configuration Management
+    - E. Controls based on the applications deployed to AWS
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A E
+        <p>
+        Explanation: 
+            Following are NOT shared responsibilities:
+                - AWS ensures adherence of IT Infrastructure with IT security standards
+                - Customer owns controls based on the applications deployed to AWS
+       </p>
+        </details>
+
+70. Which of these AWS support plans provides you with all AWS Trusted Advisor checks? (Select 2)
+    - A. Basic
+    - B. Business
+    - C. Developer
+    - D. Operations
+    - D. Enterprise
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B E
+        <p>
+        Explanation: 
+            AWS Trusted Advisor
+                - Basic and Developer plans provide 7 core checks
+                - Business and Enterprise plans provide all checks
+       </p>
+        </details>
+71. Question?
     - A.
     - B.
     - C.
@@ -908,85 +1102,7 @@
    </p>
     </details>
 
-61. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-62. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-63. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-64. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-65. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-66. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-67. Question?
+72. Question?
     - A.
     - B.
     - C.
