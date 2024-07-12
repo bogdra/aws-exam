@@ -1089,7 +1089,193 @@
                 - Business and Enterprise plans provide all checks
        </p>
         </details>
-71. Question?
+71. Which one of these is a design principle for AWS?
+    - A. Test First
+    - B. Think Parallel
+    - C. Detail Orientation
+    - D. Error handling
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation:  Think Parallel is a design principle of AWS, which encourages users to design service architectures using highly parallelizable work to ensure higher availa
+   </p>
+    </details>
+
+72. Which AWS service will help protect applications running on AWS from DDoS attacks?
+    - A. Amazon GuardDuty
+    - B. AWS Shield
+    - C. Amazon Inspector
+    - D. AWS WAF
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: 
+            AWS Shield provides protection against DDoS attacks at both the application and network layers. It offers two tiers: AWS Shield Standard and AWS Shield Advanced.
+            AWS Shield Standard is automatically included at no extra cost with all AWS services that are deployed on AWS infrastructure, providing protection against common and most frequently observed DDoS attacks.
+            AWS Shield Advanced is a premium service that offers enhanced DDoS protection, 24/7 access to the AWS DDoS Response Team (DRT), and additional features to protect against more sophisticated and larger-scale DDoS attacks.
+   </p>
+    </details>
+
+73. What design principle suggests that instead of building a single, monolithic application, it is better to break it down into smaller, loosely coupled components?
+    - A. Design for modularity
+    - B. Design for scalability
+    - C. Decoupling components
+    - D. Design for flexibility
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation:  Decoupling components is a design principle that suggests breaking down a monolithic application into smaller, independent components. This approach allows for greater flexibility and scalability, as each component can be updated or replaced without affecting the entire system. It also allows for greater fault tolerance, as a failure in one component will not necessarily affect the entire system.
+   </p>
+    </details>
+
+74. What is the MOST operationally efficient solution to delegate permissions for an EC2 instance to access AWS resources such as S3 and DynamoDB?
+    - A. Creating an IAM user and using its access key and secret access key to create a CLI profile in the EC2 instance
+    - B. Creating an IAM role with the required permissions and attaching the role to the administrative IAM user
+    - C. Create an IAM role with the required permissions and attach the role to the EC2 instance.
+    - D. Creating an IAM user and using its access key and secret access key in the application
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation:  The recommended approach to delegate permissions for an EC2 instance to access AWS resources is by creating an IAM role with the required permissions and attaching the role to the EC2 instance. This approach reduces the risk of access key exposure and avoids the need to manage access keys for individual users. Additionally, it allows for more granular permission management and simplifies the process of rotating access keys.
+   </p>
+    </details>
+
+75. Which of the following is an AWS service that enables customers to assess, implement, and automate security and compliance controls in the cloud?
+    - A. AWS CloudTrail
+    - B. Amazon Inspector
+    - C. AWS Artifact
+    - D. AWS Config
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: AWS Config is a service that allows you to assess, implement, and automate security and compliance controls in the cloud. It provides a detailed view of the configuration settings and changes of your AWS resources. With AWS Config, you can define rules for resource configurations, track changes over time, and receive notifications about resource configuration changes that violate your defined rules. This helps in maintaining a secure and compliant cloud environment.
+   </p>
+    </details>
+
+76. Which of the following acts as an instance-level firewall to control inbound and outbound access?
+    - A. AWS Trusted Advisor
+    - B. Virtual private gateways
+    - C. Security groups
+    - D. Network access control list
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation:  Security groups act as an instance-level firewall to control inbound and outbound access in AWS. Security groups are associated with EC2 instances and provide a virtual firewall that controls the traffic for one or more instances. They act as a stateful firewall, which means that any changes to inbound rules are automatically applied to outbound rules.
+   </p>
+    </details>
+
+77. Which benefit of the AWS Cloud ensures that resources are always available and performing as expected, with minimal downtime or interruptions?
+    - A. Security
+    - B. Reliability
+    - C. Elasticity
+    - D. High Availability
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: High Availability in AWS refers to the ability of a system or application to remain operational and accessible even in the face of hardware or software failures. AWS achieves high availability by distributing resources across multiple availability zones (AZs) within a region and by providing features such as load balancing, automatic failover, and redundancy. This ensures that if one availability zone experiences an issue, the workload can seamlessly switch to another availability zone without significant disruption.
+        High availability specifically addresses the goal of minimizing downtime and interruptions by providing redundant infrastructure and failover mechanisms.
+   </p>
+    </details>
+
+78. How can multiple AWS accounts aid in allocating costs across departments?
+    - A. By providing separate access control for each department
+    - B. By allowing departments to share resources without additional costs
+    - C. By providing separate billing for each department
+    - D. By consolidating billing into a single payment
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: Multiple AWS accounts can be used to allocate costs across departments by providing separate billing for each department. Each department can have its own AWS account and the costs associated with that account can be allocated to that department. This helps to ensure that each department is only paying for the resources that it is using and helps to prevent one department from incurring costs that should be allocated to another department.
+   </p>
+    </details>
+
+79. Which of the following options is the recommended way to get billing support on AWS?
+    - A. Use the AWS Billing and Cost Management dashboard
+    - B. Use third-party partners and tools
+    - C. Open a billing support case
+    - D. Contact your account manager
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: If you have a billing issue or question, the recommended way to get support is to open a billing support case through the AWS Support Center. This allows you to receive personalized support from AWS billing experts.
+   </p>
+    </details>
+
+80. Which AWS service or tool should a company use to centrally request and track service limit increases?
+    - A. AWS Service Catalog
+    - B. AWS Budgets
+    - C. Service Quotas
+    - D. AWS Config
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: Service Quotas. This service allows you to view and manage your AWS service quotas centrally. You can request quota increases for some AWS services using Service Quotas. It is designed to help manage quotas within a multi-account environment.
+   </p>
+    </details>
+
+81. What is the benefit of using a region in the AWS Cloud?
+    - A. Regions provide additional security and compliance features.
+    - B. Regions allow users to control the performance of their applications.
+    - C. Regions allow users to choose the physical location of their data.
+    - D. Regions provide access to a specific set of AWS services.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: A region is a physical location in the world where AWS has multiple data centers. Each region is completely independent and isolated from the others. Users can choose the region where their resources will be provisioned, and can also use multiple regions for high availability and disaster recovery. One of the benefits of using a region is that it allows users to choose the physical location of their data, which can help with data residency requirements and compliance.
+   </p>
+    </details>
+
+82. What is the role of the Concierge for AWS Enterprise Support Plan customers?
+    - A. To provide training and certification support
+    - B. To provide security and compliance support
+    - C. To manage AWS billing and cost optimization
+    - D. To provide technical support for AWS services
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: The Concierge is a dedicated support team that provides proactive guidance and assistance for AWS Enterprise Support Plan customers. They help with billing and cost optimization, as well as account management and access to AWS resources.
+   </p>
+    </details>
+
+83. Which of the following is a recommended way to protect data at rest in AWS?
+    - A. Use a VPN to access AWS resources.
+    - B. Use AWS Shield to protect against DDoS attacks.
+    - C. Implement encryption on AWS services that support it.
+    - D. Set up firewalls to block incoming traffic.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: Encrypting data at rest is a best practice to protect sensitive data stored in AWS services such as S3 and EBS. AWS provides encryption options for many of its services, including S3, EBS, RDS, and Redshift.
+   </p>
+    </details>
+
+83. Which of the following is a benefit of using On-Demand Instance pricing on AWS?
+    - A. Long-term cost predictability.
+    - B. Maximum flexibility and no long-term commitments.
+    - C. Short-term and unpredictable workloads.
+    - D. Upfront payment for a specified amount of time.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation:  On-Demand Instance pricing on AWS is best suited for scenarios where maximum flexibility and no long-term commitments are required. This pricing model is designed for users who need compute capacity on an as-needed basis, without any upfront payment or long-term obligation. It is ideal for applications with unpredictable workloads, or for those being tested or developed for the first time. Users pay for the compute capacity by the hour or second, depending on the instances they run, allowing them to scale up or down based on their immediate needs. This flexibility comes at a higher per-hour cost compared to other options like Reserved Instances or Savings Plans.
+   </p>
+    </details>
+
+83. Question?
     - A.
     - B.
     - C.
@@ -1102,20 +1288,7 @@
    </p>
     </details>
 
-72. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-68. Question?
+83. Question?
     - A.
     - B.
     - C.
