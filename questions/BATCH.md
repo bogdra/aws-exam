@@ -1262,7 +1262,7 @@
    </p>
     </details>
 
-83. Which of the following is a benefit of using On-Demand Instance pricing on AWS?
+84. Which of the following is a benefit of using On-Demand Instance pricing on AWS?
     - A. Long-term cost predictability.
     - B. Maximum flexibility and no long-term commitments.
     - C. Short-term and unpredictable workloads.
@@ -1275,7 +1275,237 @@
    </p>
     </details>
 
-83. Question?
+85. Which of the following operations would reduce costs by moving to the cloud?
+    - A. Right-sizing infrastructure
+    - B. Manually managing infrastructure
+    - C. Increasing compliance scope
+    - D. Using legacy software that is not compatible with the cloud
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation:  Right-sizing infrastructure is an operation that would reduce costs by moving to the cloud, and is a factor that would be part of a Total Cost of Ownership (TCO) proposal. By using the cloud's ability to scale resources up or down as needed, organizations can reduce costs associated with over-provisioning or under-provisioning of infrastructure.
+   </p>
+    </details>
+
+86. What is the role of the Concierge in the AWS Enterprise Support Plan?
+    - A. To manage AWS resources.
+    - B. To provide technical expertise for the full range of AWS services and obtain a detailed understanding of your use case and technology architecture.
+    - C. To inspect your AWS environment and alert you of opportunities to save money
+    - D. To serve as your primary point of contact and provide assistance with billing or account inquiries.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: Your Amazon Web Services Concierge is a senior customer service agent who is assigned to your account when you subscribe to an Enterprise or qualified Reseller Support plan. This Concierge agent is your primary point of contact for billing or account inquiries; when you don’t know whom to call, they will find the right people to help. In most cases, the Amazon Web Services Concierge is available during regular business hours in your headquarters’ geography.
+   </p>
+    </details>
+
+87. Which of the following benefits of AWS cloud refers to the ability to access resources and services that are always available and fault-tolerant?
+    - A. High Availability
+    - B. Reliability
+    - C. Security
+    - D. Elasticity
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: High Availability is one of the benefits of AWS cloud. It refers to the ability to access resources and services that are always available and fault-tolerant. AWS achieves high availability by deploying resources across multiple availability zones within a region, ensuring that your applications and services remain available even if one or more availability zones experience an outage.
+   </p>
+    </details>
+
+88. How does the AWS cloud enable users to focus on business value?
+    - A. By offering managed services that automate common administrative tasks
+    - B. By offering pay-as-you-go pricing that enables users to start small and scale up as their needs grow
+    - C. By providing a global infrastructure with regions and availability zones spread across the world
+    - D. By providing a comprehensive set of security services and features
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: AWS cloud enables users to focus on business value by offering managed services that automate common administrative tasks. These services include managed databases, application load balancers, and serverless computing, which reduce the burden of managing infrastructure and allow users to focus on their core business.
+   </p>
+    </details>
+
+89. What is the role of OpEx in a TCO proposal for moving to the cloud?
+    - A. It represents the ongoing costs associated with using and managing cloud services
+    - B. It represents the cost of licensing proprietary software
+    - C. It is not relevant to a TCO proposal for moving to the cloud
+    - D. It represents the upfront costs of acquiring and maintaining hardware and software
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: OpEx represents the ongoing costs associated with using and managing cloud services, such as the cost of data transfer, storage, and compute resources. These costs can be lower than the upfront costs associated with acquiring and maintaining hardware and software, which is represented by CapEx
+   </p>
+    </details>
+
+90. Which AWS service provides detailed cost and usage reports?
+    - A. AWS Cost and Usage Report
+    - B. AWS Marketplace
+    - C. Amazon QuickSight
+    - D. AWS Trusted Advisor
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: AWS Cost and Usage Report. The AWS Cost and Usage Report provides detailed information about AWS usage and costs. Users can download the report and use it to understand their costs, optimize their usage, and forecast future costs.
+   </p>
+    </details>
+
+91. What is AWS Simple Monthly Calculator?
+    - A. A tool for calculating the cost of AWS services based on usage
+    - B. A tool for monitoring AWS resource utilization
+    - C. A tool for automating AWS infrastructure deployment
+    - D. A tool for managing AWS user access
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: AWS Simple Monthly Calculator is a tool that allows users to estimate the cost of AWS services based on their usage. It can help users to plan and budget their AWS usage, and make informed decisions about which services to use.
+   </p>
+    </details>
+
+92. Which of the following is true about managed policies in IAM?
+    - A. They are defined and managed by the AWS Customer
+    - B. They can only be attached to IAM groups
+    - C. They cannot be modified by the AWS Customer
+    - D. They are defined and managed by AWS
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+        <p>
+        Explanation: Managed policies are pre-built policies that are defined and managed by AWS. They can be attached to multiple IAM entities such as groups, users, and roles. Unlike custom policies, managed policies cannot be modified by the AWS Customer.
+   </p>
+    </details>
+
+93. What is the AWS Shared Responsibility Model?
+    - A. A model that outlines the shared responsibilities between AWS and its customers for ensuring security and compliance in the cloud
+    - B. A model that outlines the shared responsibilities between AWS and its customers for managing and maintaining AWS infrastructure
+    - C. A model that outlines the shared responsibilities between AWS and third-party vendors for providing support to AWS customers
+    - D. A model that outlines the shared responsibilities between AWS and its customers for financial management of AWS services
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: The AWS Shared Responsibility Model is a model that outlines the shared responsibilities between AWS and its customers for ensuring security and compliance in the cloud. It specifies which security responsibilities are the responsibility of the customer and which are the responsibility of AWS.
+   </p>
+    </details>
+
+94. Where can you find pricing information for AWS services?
+    - A. AWS Services product pages
+    - B. AWS CloudFormation
+    - C. AWS Marketplace
+    - D. AWS CloudTrail
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: Pricing information for AWS services can be found on the AWS Services product pages. These pages provide information on pricing models, pricing examples, and pricing details for each service. Users can also use the AWS Simple Monthly Calculator or the AWS Pricing API to get pricing information for AWS services.
+   </p>
+    </details>
+
+95. What are the three main cloud models?
+    - A. Public Cloud, Private Cloud, Hybrid
+    - B. Cloud-only, Hybrid, Virtual Machines
+    - C. On-premises, Cloud-native, Hybrid
+    - D. On-premises, Hybrid, Virtual Machines
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: The different types of cloud models are public cloud, private cloud, and hybrid cloud. Public cloud refers to cloud services that are provided over the internet and are accessible to anyone who wants to use them. Private cloud refers to cloud services that are used exclusively by a single organization and are hosted either on-premises or by a third-party provider. Hybrid cloud refers to a combination of both public and private cloud services.
+   </p>
+    </details>
+
+96. Which IAM entity is used to define permissions and access control for AWS resources?
+    - A. Policies
+    - B. Users
+    - C. Groups
+    - D. Roles
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: Policies are used to define permissions and access control for AWS resources. They can be attached to IAM groups, users, and roles. Policies can be either custom policies created by the user or managed policies provided by AWS.
+   </p>
+    </details>
+
+97. A large company has multiple departments. Each department has its own AWS account. Each department has purchased Amazon EC2 Reserved Instances.
+Some departments do not use all the Reserved Instances that they purchased, and other departments need more Reserved Instances than they purchased. The company needs to manage the AWS accounts for all the departments so that the departments can share the Reserved Instances.
+Which AWS service or tool should the company use to meet these requirements?
+    - A. AWS Organizations
+    - B. Cost Explorer
+    - C. AWS Trusted Advisor
+    - D. AWS Systems Manager
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: AWS Organizations is a service that allows an organization to consolidate multiple AWS accounts into an organization that can be centrally managed. It provides a way to manage policies across multiple AWS accounts, which can help to ensure compliance with security and compliance standards, and also allows for sharing of Reserved Instances between departments. With AWS Organizations, a master account can purchase Reserved Instances and share them with other accounts in the organization. This allows departments that do not use all their Reserved Instances to share them with departments that need more Reserved Instances. AWS Systems Manager provides a suite of tools for managing multiple AWS resources and applications, Cost Explorer provides cost and usage reports for AWS services, and AWS Trusted Advisor provides recommendations for optimizing AWS resources. While these tools can be useful for managing AWS accounts, they do not provide the functionality to manage Reserved Instances sharing between accounts.
+   </p>
+    </details>
+
+98. Which of the following IAM entities can be used to grant temporary access to AWS resources?
+    - A. Groups
+    - B. Roles
+    - C. Policies
+    - D. Users
+    - E. All actions taken by root users are tracked and logged within AWS Billing
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: Roles can be used to grant temporary access to AWS resources without the need to create or manage an AWS identity. They can be assumed by trusted entities such as AWS services, IAM users or federated users, and are used to provide access to resources that would otherwise be unavailable to those entities.
+   </p>
+    </details>
+
+99. Which of the following is a scenario that would best fit with On-Demand Instance pricing on AWS?
+    - A. Running a development environment for a small team that only needs occasional access.
+    - B. Running a high-performance computing (HPC) workload that requires specific hardware configurations.
+    - C. Running an application 24/7 with predictable, steady traffic.
+    - D. Running a production database that requires consistent performance and uptime.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A 
+        <p>
+        Explanation: On-Demand Instances are ideal for short-term and unpredictable workloads where you pay for compute capacity by the hour or the second with no long-term commitments.
+   </p>
+    </details>
+
+100. Which of the following benefits of AWS cloud refers to the ability to ensure the confidentiality, integrity, and availability of your data and resources?
+    - A. Security
+    - B. High Availability
+    - C. Reliability
+    - D. Elasticity
+    <details markdown=1>
+        <summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>Explanation:  Security is one of the benefits of AWS cloud. AWS provides a comprehensive set of security services and features to ensure the confidentiality, integrity, and availability of your data and resources. </p>
+    </details>
+
+101. A company is migrating to the AWS Cloud instead of running its infrastructure on-premises.
+Which of the following are advantages of this migration? (Choose two.)
+    - A. Increased global reach and agility
+    - B. Elimination of the need to perform security auditing
+    - C. Ability to deploy globally in minutes
+    - D. Redundancy by default for all compute services
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A C
+        <p>
+        Explanation: Increased global reach and agility and Ability to deploy globally in minutes are advantages of migrating to the AWS Cloud instead of running infrastructure on premises.
+   </p>
+    </details>
+
+102. What is the role of capital expenses (CapEx) in a Total Cost of Ownership (TCO) proposal?
+    - A. They are a one-time cost associated with the purchase of physical assets.
+    - B. They are expenses related to employee salaries and benefits.
+    - C. They are ongoing expenses related to the operation and maintenance of physical assets
+    - D. They are expenses related to software licensing and maintenance.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>
+        Explanation: Capital expenses (CapEx) are a one-time cost associated with the purchase of physical assets, and are a factor that would be part of a Total Cost of Ownership (TCO) proposal. This includes expenses such as hardware and software purchases.
+   </p>
+    </details>
+
+103. Question?
     - A.
     - B.
     - C.
@@ -1288,7 +1518,7 @@
    </p>
     </details>
 
-83. Question?
+104. Question?
     - A.
     - B.
     - C.
@@ -1300,3 +1530,69 @@
         Explanation: 
    </p>
     </details>
+
+105. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+106. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+107. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+108. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
+109. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: E
+        <p>
+        Explanation: 
+   </p>
+    </details>
+
