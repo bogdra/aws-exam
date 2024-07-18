@@ -1473,10 +1473,11 @@ Which AWS service or tool should the company use to meet these requirements?
     - B. High Availability
     - C. Reliability
     - D. Elasticity
-    <details markdown=1>
-        <summary markdown='span'>Answer</summary>
-      Correct answer: A
-        <p>Explanation:  Security is one of the benefits of AWS cloud. AWS provides a comprehensive set of security services and features to ensure the confidentiality, integrity, and availability of your data and resources. </p>
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A
+        <p>
+        Explanation: On-Demand Instances are ideal for short-term and unpredictable workloads where you pay for compute capacity by the hour or the second with no long-term commitments.
+</p>
     </details>
 
 101. A company is migrating to the AWS Cloud instead of running its infrastructure on-premises.
@@ -1485,114 +1486,324 @@ Which of the following are advantages of this migration? (Choose two.)
     - B. Elimination of the need to perform security auditing
     - C. Ability to deploy globally in minutes
     - D. Redundancy by default for all compute services
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A C
-        <p>
-        Explanation: Increased global reach and agility and Ability to deploy globally in minutes are advantages of migrating to the AWS Cloud instead of running infrastructure on premises.
-   </p>
-    </details>
+     <details markdown=1>
+         <summary markdown='span'>Answer</summary>
+         Correct answer: A C
+         <p>Explanation: Increased global reach and agility and Ability to deploy globally in minutes are advantages of migrating to the AWS Cloud instead of running infrastructure on premises.</p>
+     </details>
 
 102. What is the role of capital expenses (CapEx) in a Total Cost of Ownership (TCO) proposal?
     - A. They are a one-time cost associated with the purchase of physical assets.
     - B. They are expenses related to employee salaries and benefits.
     - C. They are ongoing expenses related to the operation and maintenance of physical assets
     - D. They are expenses related to software licensing and maintenance.
-
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
+        <p>Explanation: Capital expenses (CapEx) are a one-time cost associated with the purchase of physical assets, and are a factor that would be part of a Total Cost of Ownership (TCO) proposal. This includes expenses such as hardware and software purchases.</p>
+    </details>
+
+103. A company wants to protect its AWS Cloud information, systems, and assets while performing risk assessment and mitigation tasks.
+     Which pillar of the AWS Well-Architected Framework is supported by these goals?
+    - A. Reliability
+    - B. Security
+    - C. Operational excellence
+    - D. Performance efficiency
+    <details markdown=1><summary markdown='span'>Answer</summary>
+        Correct answer: B
+        <p>Explanation:</p>
+    </details>
+
+104. A company has an AWS account. The company wants to audit its password and access key rotation details for compliance purposes.
+     Which AWS service or tool will meet this requirement?
+    - A. IAM Access Analyzer
+    - B. AWS Artifact
+    - C. IAM credential report
+    - D. AWS Audit Manager
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
         <p>
-        Explanation: Capital expenses (CapEx) are a one-time cost associated with the purchase of physical assets, and are a factor that would be part of a Total Cost of Ownership (TCO) proposal. This includes expenses such as hardware and software purchases.
+        Explanation:  You can use credential reports to assist in your auditing and compliance efforts. You can use the report to audit the effects of credential lifecycle requirements, such as password and access key updates.
+        </p>
+    </details>
+
+105. A company wants to receive a notification when a specific AWS cost threshold is reached.
+     Which AWS services or tools can the company use to meet this requirement? (Choose two.)
+    - A. Amazon Simple Queue Service (Amazon SQS)
+    - B. AWS Budgets
+    - C. Cost Explorer
+    - D. Amazon CloudWatch
+    - E. AWS Cost and Usage Report
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B D
+        <p>
+            Explanation: B. AWS Budgets: AWS Budgets is a service that allows you to set custom cost and usage budgets for your AWS resources. You can configure a budget with a specific threshold and define actions, such as sending notifications, when that threshold is reached.
+            D. Amazon CloudWatch: Amazon CloudWatch is a monitoring service that can be used to collect and track metrics, logs, and events from various AWS resources. It supports setting up alarms based on cost metrics, so you can create an alarm for a specific cost threshold and configure it to send notifications when the threshold is breached.
+        </p>
+    </details>
+
+106. Which tasks are customer responsibilities, according to the AWS shared responsibility model? (Choose two.)
+    - A. Configure the AWS provided security group firewall.
+    - B. Classify company assets in the AWS Cloud.
+    - C. Determine which Availability Zones to use for Amazon S3 buckets.
+    - D. Patch or upgrade Amazon DynamoDB.
+    - E. Select Amazon EC2 instances to run AWS Lambda on.
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A B
+        <p>
+        Explanation:
+        Not C: S3 is available across all AZ's and customer does not choose the AZ.
+        Not D: Dynamo DB patching is "of the cloud", not "in the cloud", hence is AWS responsibility
+        Not E: AWS Lambda is a serverless service
    </p>
     </details>
 
-103. Question?
+107. A company needs to block SQL injection attacks.
+     Which AWS service or feature can meet this requirement?
+    - A. AWS WAF
+    - B. AWS Shield
+    - C. Network ACLs
+    - D. Security groups
+    <details markdown=1>
+     <summary markdown='span'>Answer</summary>
+      Correct answer: A
+        <p>Explanation: Confusion will come to choose between WAF or Shield. but all common web attack patterns (XSS, SQL Injection, etc...) dealt by WAF, special cases which can't be handled by WAF - will be handled by Shield primarily DDoS</p>
+    </details>
+
+108. A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud.
+     How can these reports be generated?
+    - A. Contact the AWS Compliance team.
+    - B. Download the reports from AWS Artifact.
+    - C. Open a case with AWS Support.
+    - D. Generate the reports with Amazon Macie.
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation: AWS Artifact is a portal that provides access to various compliance reports, including certifications, attestations, and other relevant documents. You can download these reports directly from AWS Artifact.
+   </p>
+    </details>
+
+109. Which AWS service can be used at no additional cost?
+    - A. Amazon SageMaker
+    - B. AWS Config
+    - C. AWS Organizations
+    - D. Amazon CloudWatch
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage. AWS Organizations is offered at no additional charge. You are charged only for AWS resources that users and roles in your member accounts use. For example, you are charged the standard fees for Amazon EC2 instances that are used by users or roles in your member accounts.
+   </p>
+    </details>
+
+110. Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the people perspective?
+     - A. Data architecture
+     - B. Event management
+     - C. Cloud fluency
+     - D. Strategic partnership
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+        <p>
+        Explanation: 
+        Data architecture => Platform
+        Event management => Operations
+        Cloud fluency => People
+        Strategic partnership => Business
+   </p>
+    </details>
+
+111. Which AWS service gives users the ability to discover and protect sensitive data that is stored in Amazon S3 buckets?
+     - A. Amazon Macie
+     - B. Amazon Detective
+     - C. Amazon GuardDuty
+     - D. AWS IAM Access Analyzer
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A
+        <p>
+        Explanation: Amazon Macie: A security service that uses machine learning to automatically discover, classify, and protect sensitive data, such as personally identifiable information (PII), in Amazon S3.
+</p>
+    </details>
+
+112. Which AWS service can identify when an Amazon EC2 instance was terminated?
+    - A. AWS Identity and Access Management (IAM)
+    - B. AWS CloudTrail
+    - C. AWS Compute Optimizer
+    - D. Amazon EventBridge
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: AWS CloudTrail is a service that records all API activity in your AWS account, including the termination of EC2 instances. It creates log entries for various events, providing an audit trail of actions taken on resources. By reviewing CloudTrail logs, you can identify when an EC2 instance was terminated, who initiated the termination, and other relevant details about the event. 
+</p>
+    </details>
+
+113. Which AWS services or features provide disaster recovery solutions for Amazon EC2 instances? (Choose two.)
+     - A. EC2 Reserved Instances
+     - B. EC2 Amazon Machine Images (AMIs)
+     - C. Amazon Elastic Block Store (Amazon EBS) snapshots
+     - D. AWS Shield
+     - E. Amazon GuardDuty
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B C
+        <p>
+        Explanation: EC2 Amazon Machine Images (AMIs): AMIs are used to create backups of EC2 instances, and they can be used to launch replacement instances in the event of a disaster or data loss. AMIs are essential for creating recovery points for your EC2 instances.  Amazon Elastic Block Store (Amazon EBS) snapshots: EBS snapshots allow you to create point-in-time backups of your EBS volumes. These snapshots can be used to restore data or create new EBS volumes, making them a key component of disaster recovery for EC2 instances.
+</p>
+    </details>
+
+114. A network engineer needs to build a hybrid cloud architecture connecting on-premises networks to the AWS Cloud using AWS Direct Connect. The company has a few VPCs in a single AWS Region and expects to increase the number of VPCs to hundreds over time.
+     Which AWS service or feature should the engineer use to simplify and scale this connectivity as the VPCs increase in number?
+     - A. VPC endpoints
+     - B. AWS Transit Gateway
+     - C. Amazon Route 53
+     - D. AWS Secrets Manager
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: AWS Transit Gateway connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships. Transit Gateway acts as a highly scalable cloud router—each new connection is made only once.
+</p>
+    </details>
+
+115. Which AWS billing services are capable of forecasting cost and usage? select 2
+     - A. AWS Cost and Usage Report
+     - B. AWS Budgets
+     - C. AWS Cost Explorer
+     - D. Amazon Forecast
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A B
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+116. Which AWS service is used to calculate the Total Cost of Ownership?
+     - A. AWS Cost Explorer
+     - B. TCO Calculator
+     - C. AWS Pricing Calculator
+     - D. AWS Budgets
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: The AWS Pricing Calculator is the recommended tool for estimating the cost of AWS services and calculating the Total Cost of Ownership. It allows users to model and compare different configurations and scenarios, making it suitable for both initial cost estimations and ongoing cost management.
+</p>
+    </details>
+
+117. Which is a significant financial benefit of shifting on-premises data center systems to AWS?
+     - A. Replaces variable operational expenses (OPEX) with low upfront capital expenses (CAPEX) over time
+     - B. Replaces upfront operational expenses (OPEX) with low variable operational expenses (OPEX) over time
+     - C. Replaces upfront capital expenses (CAPEX) with low variable costs over time
+     - D. CAPEX upfront costs are lower, adding increased privacy and security as well as computing power over time
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: This statement is correct. When organizations move from on-premises data centers to cloud services like AWS, they shift from a CAPEX model to an OPEX model. In the CAPEX model, companies incur substantial upfront costs for purchasing and maintaining physical hardware and infrastructure. When they transition to the cloud, these upfront costs are significantly reduced or eliminated, as the cloud provider owns the infrastructure. Instead, the organization pays for the services it consumes, typically on a variable cost basis, which can adjust according to the organization's usage. This model provides flexibility and can lead to cost savings, particularly for organizations that experience fluctuating demands.
+</p>
+    </details>
+
+118. A company has an existing web application running on AWS Cloud within North America. The company has observed an increase of users from Asia however due to the distance between the customer and the North American these users are experiencing severe latency. The company decides to launch an identical server within an Asia Region to reduce the latency. Which benefit of AWS Cloud does this best describe?
+     - A. Agility
+     - B. High Availability
+     - C. Global Reach
+     - D. Economy of scale
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: Global Reach is about being able to provide better operational performance to new or existing but underserved geographical areas. Go global in minutes – Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at a minimal cost.
+</p>
+    </details>
+
+118. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+    - A. Amazon GuardDuty
+    - B. Amazon Macie
+    - C. AWS IAM Access Analyzer
+    - D. Amazon Detector
+    - E. S3 Bucket Scanner
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B C
+        <p>
+        Explanation:  Macie automatically and continually evaluates all of your S3 buckets and alerts you to any unencrypted buckets, publicly accessible buckets, or buckets shared with AWS accounts outside those you have defined in the AWS Organizations.
+AWS IAM Access Analyzer helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, shared with an external entity. This lets you identify unintended access to your resources and data, which is a security risk. Access Analyzer identifies resources shared with external principals by using logic-based reasoning to analyze the resource-based policies in your AWS environment.
+</p>
+    </details>
+
+118. An enterprise is evaluating whether to adopt AWS to offload most of their on-premise Virtual Machines to Ec2. The enterprise does not have much domain expertise, and they need a point of contact that will help proactively manage their account and connect them with AWS experts. Which Enterprise offering does this best describe?
+    - A. AWS Technical Support
+    - B. Concierge Support Team
+    - C. TAM
+    - D. Werner Hans Peter Vogels
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: Designated Technical Account Manager (TAM) to proactively monitor your environment and assist with optimization and coordinate access to programs and AWS experts. TAMs are part of AWS's Enterprise Support Plan and play a key role in helping customers optimize their AWS environments. They provide guidance, best practices, and expertise in AWS services. The TAM serves as a primary point of contact, helping to plan and monitor the AWS environment, and connecting the customer with other AWS experts as needed. This service is particularly valuable for enterprises that lack deep domain expertise in AWS and need ongoing support and strategic guidance.
+</p>
+    </details>
+
+118. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
+    - A. Enable Cost and Usage Reports
+    - B. Create a Billing Alarm
+    - C. Enable Billing Alerts
+    - D. Create an AWS Cost and Usage Report
+    - E. Create an AWS Budget
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B C 
+        <p>
+        Explanation: Before you can create an alarm for your estimated charges, you must enable billing alerts, so that you can monitor your estimated AWS charges and create an alarm using billing metric data. After you enable billing alerts, you can't disable data collection, but you can delete any billing alarms that you created. After you enable billing alerts for the first time, it takes about 15 minutes before you can view billing data and set billing alarms.
+</p>
+    </details>
+
+118. Which of the following are examples of Capital Expenses (CAPEX)?
+    - A. IT Personnel
+    - B. Subscription for software license
+    - C. Datacenter Costs
+    - D. Network Costs
+    - D. Billing Based on Compute Metrics
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C D
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+118. Question?
     - A.
     - B.
     - C.
     - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
         <p>
         Explanation: 
-   </p>
+</p>
     </details>
 
-104. Question?
+118. Question?
     - A.
     - B.
     - C.
     - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
         <p>
         Explanation: 
-   </p>
+</p>
     </details>
 
-105. Question?
+118. Question?
     - A.
     - B.
     - C.
     - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
         <p>
         Explanation: 
-   </p>
+</p>
     </details>
 
-106. Question?
+118. Question?
     - A.
     - B.
     - C.
     - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
         <p>
         Explanation: 
-   </p>
+</p>
     </details>
-
-107. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-108. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
-109. Question?
-    - A.
-    - B.
-    - C.
-    - D.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: E
-        <p>
-        Explanation: 
-   </p>
-    </details>
-
