@@ -1760,11 +1760,121 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
+118. Which of the following can not be used to work with AWS services programmatically?
+    - A. AWS SDK
+    - B. AWS Console
+    - C. AWS CLI
+    - D. AWS CloudShell
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+118. Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
+    - A. Network Access Control Lists
+    - B. None of these
+    - C. Route Tables
+    - D. Subnet
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: By default, a VPC spans all of the Availability Zones in a Region.
+</p>
+    </details>
+
+118. You are planning on deploying a video-based application onto the AWS Cloud. Users across the world will access these videos. Which of the below services can help efficiently stream the content to users across the globe?
+    - A. Amazon SES
+    - B. Amazon CloudFront
+    - C. Amazon S3
+    - D. Amazon Cloudtrail
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation:  Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost effective way to distribute content with low latency and high data transfer speeds. Like other AWS services, Amazon CloudFront is a self-service, pay-per-use offering, requiring no long term commitments or minimum fees. With CloudFront, your files are delivered to end-users using a global network of edge locations.
+</p>
+    </details>
+
+118. Which of the following are components of the AWS Compliance Programs? choose 3
+    - A. Laws, Regulations, and Privacy
+    - B. Certifications and Attestations
+    - C. Following industry best practices
+    - D. Partner Validations
+    - E. Alignments and Frameworks
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A B E
+        <p>
+        Explanation: AWS customers remain responsible for complying with applicable compliance laws, regulations, and privacy programs.  Compliance certifications and attestations are assessed by a third-party, independent auditor and result in a certification, audit report, or attestation of compliance. Compliance alignments and frameworks include published security or compliance requirements for a specific purpose, such as a specific industry or function.
+</p>
+    </details>
+
+118. Which of the following statements are FALSE when it comes to elasticity?
+     - A. Diverting traffic across multiple regions
+     - B. Diverting traffic to instances with high loads
+     - C. Diverting traffic to instances with the least load
+     - D. Diverting traffic to instances based on the demand
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A B
+        <p>
+        Explanation: The concept of Elasticity is the means of an application having the ability to scale up and scale down based on demand. An example of such a service is the Autoscaling service.  Auto scaling groups can span across multiple Availability Zones within a Region but cannot span across multiple Regions. You would not want to divert traffic to instances that already have high workloads. A good auto scaling policy would create more instances to offload traffic to instances so none of them have high workloads .
+</p>
+    </details>
+
+118. Which is a significant financial benefit of shifting on-premises data center systems to AWS?
+     - A. Replaces upfront operational expenses (OPEX) with low variable operational expenses (OPEX) over time
+     - B. Replaces upfront capital expenses (CAPEX) with low variable costs over time
+     - C. CAPEX upfront costs are lower, adding increased privacy and security as well as computing power over time
+     - D. Replaces variable operational expenses (OPEX) with low upfront capital expenses (CAPEX) over time
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer:  B
+        <p>
+        Explanation: When organizations move from on-premises data centers to cloud services like AWS, they shift from a CAPEX model to an OPEX model. In the CAPEX model, companies incur substantial upfront costs for purchasing and maintaining physical hardware and infrastructure. When they transition to the cloud, these upfront costs are significantly reduced or eliminated, as the cloud provider owns the infrastructure. Instead, the organization pays for the services it consumes, typically on a variable cost basis, which can adjust according to the organization's usage. This model provides flexibility and can lead to cost savings, particularly for organizations that experience fluctuating demands.
+</p>
+    </details>
+
+118. Which of the following does AWS perform on its behalf for EBS volumes to make it less prone to failure?
+     - A. Replication of the volume across Availability Zones
+     - B. Replication of the volume in the same Availability Zone
+     - C. Replication of the volume across Edge locations
+     - D. Replication of the volume across Regions
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: When you create an EBS volume in an Availability Zone, it is automatically replicated within that zone to prevent data loss due to failure of any single hardware component
+</p>
+    </details>
+
+118. Which of the following services is most useful when a Disaster Recovery method is triggered in AWS?
+     - A. Amazon SNS
+     - B. Amazon Route 53
+     - C. Amazon Inspector
+     - D. Amazon SQS
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation:  Amazon Route 53 is a highly available and scalable cloud-Domain Name System (DNS)-web service. It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well
+</p>
+    </details>
+
+118. A company is exploring the AWS services and wants a tool or method to estimate the cost that fits their business use case.
+Which of the following would help them model their solutions and estimate the calculated cost for the services needed?
+     - A. AWS Config
+     - B. AWS Pricing Calculator
+     - C. AWS Consolidating billing
+     - D. AWS Cost Explorer
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: AWS Pricing Calculator is a web based service that you can use to create cost estimates to suit your AWS use cases. AWS Pricing Calculator is useful both for people who have never used AWS and for those who want to reorganize or expand their usage. AWS Pricing Calculator allows you to explore AWS services based on your use cases and create a cost estimate. You can model your solutions before building them, explore the price points and calculations behind your estimate, and find the available instance types and contract terms that meet your needs.
+</p>
+    </details>
+
 118. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+     - A.
+     - B.
+     - C.
+     - D.
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
@@ -1773,10 +1883,10 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
     </details>
 
 118. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+     - A.
+     - B.
+     - C.
+     - D.
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
@@ -1785,10 +1895,10 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
     </details>
 
 118. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+     - A.
+     - B.
+     - C.
+     - D.
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
@@ -1797,13 +1907,39 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
     </details>
 
 118. Question?
-    - A.
-    - B.
-    - C.
-    - D.
+     - A.
+     - B.
+     - C.
+     - D.
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
         Explanation: 
 </p>
     </details>
+
+118. Question?
+     - A.
+     - B.
+     - C.
+     - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+118. Question?
+     - A.
+     - B.
+     - C.
+     - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+Which of the following can not be used to work with AWS services programmatically?
