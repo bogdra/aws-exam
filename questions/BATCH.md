@@ -1912,7 +1912,117 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-135. Question?
+135. Which of the following is the amount of storage that can be stored in the Simple Storage service?
+     - A. 1 PB
+     - B. 5 TB
+     - C. 1 TB
+     - D. Virtually unlimited storage
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation: Amazon S3 provides a simple web service interface that you can use to store and retrieve any amount of data, at any time, from anywhere on the web. The total volume of data and the number of objects you can store are unlimited. Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a maximum of 5 terabytes.
+</p>
+    </details>
+
+136. Which of the following storage mechanisms can be used to store messages effectively which can be used across distributed systems.
+     - A. Amazon EBS Snapshots
+     - B. Amazon EBS Volumes
+     - C. Amazon Glacier
+     - D. Amazon SQS
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation: Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components
+</p>
+    </details>
+
+137. There is a requirement to move a 10 TB data warehouse to the AWS cloud. Which of the following is an ideal service which can be used to move this amount of data to the AWS Cloud?
+     - A. Amazon S3 Connector
+     - B. Amazon S3 MultiPart Upload
+     - C. Amazon Direct Connect
+     - D. AWS Snowcone HDD
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: Amazon S3 MultiPart Upload is a feature of Amazon S3 that enables the efficient uploading of large objects by breaking them into smaller parts. This method is particularly advantageous for transferring large amounts of data, as it allows for parallel uploads, which can significantly speed up the process and improve fault tolerance. If a part fails to upload, it can be retried without affecting the rest of the data. Given the 10 TB size of the data warehouse, S3 MultiPart Upload is well-suited to handle such a large transfer efficiently and reliably. Incorrect. AWS Snowcone is a small, rugged, and secure edge computing and data transfer device. It's designed for scenarios where connectivity is limited or non-existent, and it can transfer data when sent back to AWS. However, it has a storage capacity of only 8 TB usable space (14 TB in the SSD version), making it insufficient for a 10 TB data warehouse. Additionally, it is better suited for smaller, more remote data transfer tasks, rather than moving large-scale data warehouses.
+</p>
+    </details>
+
+
+138. Which of the following are attributes to the costing for using the Simple Storage Service. Choose 2 answers from the options given below . Choose 2
+    - A. Using encryption in S3
+    - B. Number of S3 buckets
+    - C. The storage class used for the objects stored.
+    - D. The total size in gigabytes of all objects stored.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C D
+        <p>
+        Explanation: Amazon S3 offers a range of storage classes designed for different use cases with different pricing: - S3 Standard for general-purpose storage of frequently accessed data; - S3 Intelligent-Tiering for data with unknown or changing access patterns; - S3 Standard-Infrequent Access (S3 Standard-IA) - S3 One Zone-Infrequent Access (S3 One Zone-IA) for long-lived, but less frequently accessed data - S3 Glacier (S3 Glacier) for long-term archive and digital preservation. The volume of storage billed in a month is based on the average storage used throughout the month (per GB). This includes all object data and metadata stored in buckets that you created under your AWS account. AWS measure your storage usage in “TimedStorage-ByteHrs,” which are added up at the end of the month to generate your monthly charges.
+</p>
+    </details>
+
+139. How do you backup an EBS Volume?
+    - A. Store Backups in Glacier
+    - B. EBS Automatic Backups
+    - C. Store Backups in S3
+    - D. EBS Snapshot
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation: You can take an EBS snapshot which will back up your data to S3 EBS Snapshots
+</p>
+    </details>
+
+140. A company wants to utilize AWS storage. For them, low storage cost is paramount, the data is rarely retrieved, and data retrieval times of several hours are acceptable for them. What is the best storage option to use?
+    - A. AWS CloudFront
+    - B. EBS-backed storage connected to EC2
+    - C. AWS S3 Reduced Redundancy Storage
+    - D. AWS Glacier
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation:  Amazon Glacier is a storage service optimized for infrequently used data, or "cold data." The service provides durable and extremely low-cost storage with security features for data archiving and backup. With Amazon Glacier, you can store your data cost-effectively for months, years, or even decades.
+</p>
+    </details>
+
+141. What is the service provided by AWS that allows developers to easily deploy and manage applications on the cloud?
+    - A. Container service
+    - B. Opswork
+    - C. CloudFormation
+    - D. Elastic Beanstalk
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation: AWS Elastic Beanstalk makes it even easier for developers to quickly deploy and manage applications in the AWS Cloud. Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.
+</p>
+    </details>
+
+142. You want to take a snapshot of an EC2 Instance and create a new instance out of it. In AWS what is this snapshot equivalent to?
+    - A. EBS Snapshot
+    - B. EC2 Snapshot
+    - C. EBS Volumes
+    - D. AMI
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation: An Amazon Machine Image (AMI) provides the information required to launch an instance, which is a virtual server in the cloud. You specify an AMI when you launch an instance, and you can launch as many instances from the AMI as you need. You can also launch instances from as many different AMIs as you need.
+</p>
+    </details>
+
+143. Which of the following AWS services should you use to migrate an existing database to AWS?
+    - A. AWS Snowball
+    - B. AWS Storage gateway
+    - C. AWS Lambda
+    - D. AWS DMS
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: D
+        <p>
+        Explanation:  AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases.
+</p>
+    </details>
+
+
+144. Question?
      - A.
      - B.
      - C.
@@ -1924,7 +2034,8 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-136. Question?
+
+145. Question?
      - A.
      - B.
      - C.
@@ -1936,7 +2047,7 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-137. Question?
+146. Question?
      - A.
      - B.
      - C.
@@ -1947,3 +2058,40 @@ Which of the following would help them model their solutions and estimate the ca
         Explanation: 
 </p>
     </details>
+
+147. Question?
+     - A.
+     - B.
+     - C.
+     - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+148. Question?
+     - A.
+     - B.
+     - C.
+     - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+     - A.
+     - B.
+     - C.
+     - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
