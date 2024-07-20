@@ -322,12 +322,7 @@
    <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: B C
        <p>
-       Explanation: - Well Architected Framework - Five Pillars
-            - Operational Excellence
-              - Security
-              - Reliability
-              - Performance Efficiency
-              - Cost Optimization
+       Explanation: Well Architected Framework - Five Pillars: Operational Excellence; Security; Reliability; Performance Efficiency; Cost Optimization
      </p>
       </details>
 
@@ -342,28 +337,26 @@
       Correct answer: A B
         <p>
         Explanation: 
-            Compliance responsibilities will be shared
-        - AWS ensures adherence of IT Infrastructure with IT security standards
-        - AWS provides information on its IT control environment (white papers,  certifications, etc)
-        - Customers perform their evaluation (use AWS control and compliance documentation)
+            Compliance responsibilities will be shared : AWS ensures adherence of IT Infrastructure with IT security standards; AWS provides information on its IT control environment (white papers,  certifications, etc) ;Customers perform their evaluation (use AWS control and compliance documentation)
        </p>
         </details>
 
-    23. Which of these AWS services helps you to define Service control policies(SCP) to define cross account restrictions (Example: Require MFA to stop an Amazon EC2 instance)?
-        - A. AWS CloudTrail
-        - B. AWS Organizations
-        - C. AWS Trusted Advisor
-        - D. AWS Config
 
-        <details markdown=1><summary markdown='span'>Answer</summary>
-          Correct answer: B
-            <p>
-            Explanation:
-            - AWS Organizations: Simple management for multiple AWS accounts
-            - Consolidated bill for AWS accounts
-            - Centralized management for AWS Config Rules
-            - Send AWS CloudTrail data to one S3 bucket (across accounts)
-            - AWS Firewall Manager to manage firewall rules (WAF, Shield and Security Groups)
+23. Which of these AWS services helps you to define Service control policies(SCP) to define cross account restrictions (Example: Require MFA to stop an Amazon EC2 instance)?
+    - A. AWS CloudTrail
+    - B. AWS Organizations
+    - C. AWS Trusted Advisor
+    - D. AWS Config
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+        <p>
+        Explanation:
+        - AWS Organizations: Simple management for multiple AWS accounts
+        - Consolidated bill for AWS accounts
+        - Centralized management for AWS Config Rules
+        - Send AWS CloudTrail data to one S3 bucket (across accounts)
+        - AWS Firewall Manager to manage firewall rules (WAF, Shield and Security Groups)
    </p>
     </details>
 
@@ -371,14 +364,11 @@
     - A. IAM User Access keys (access key ID and secret access key)
     - B. IAM Group user id and password
     - C. IAM User user id and password
-    - D. - AWS CLI (Command Line Interface)
-         - Execute Commands
-         - Create Scripts
-         - Use IAM Users Credentials - access key ID and secret access key
+    - D. AWS CLI (Command Line Interface) ;Execute Commands  ; Create Scripts ; Use IAM Users Credentials - access key ID and secret access key
+    <details markdown=1><summary markdown='span'>Answer</summary>
+        Correct answer: A
+    </details>
 
-        <details markdown=1><summary markdown='span'>Answer</summary>
-          Correct answer: A
-        </details>
 
 25. Which of these databases is recommended for data-warehousing, reporting and analytics usecases?
     - A. Amazon DynamoDB
@@ -448,6 +438,7 @@
             - Protect Amazon Route 53, CloudFront, EC2 instances and Elastic Load Balancers (ELB)
        </p>
         </details>
+
 
 30. Which of these AWS services provides predefined, customizable rules that are used to evaluate whether your AWS resources comply with common best practices?
     - A. Amazon CloudWatch
@@ -547,6 +538,7 @@
    </p>
     </details>
 
+
 37. Which of these are the types of Elastic Load Balancers available in AWS (select 3)?
     - A. Container Load Balancer
     - B. Classic Load Balancer
@@ -558,11 +550,12 @@
       Correct answer: B C D
         <p>
         Explanation: 
-            - Classic Load Balancer: Old generation. Not Recommended by AWS.
-            - Application Load Balancer: Most popular and frequently used ELB in AWS. Supports HTTP/HTTPS (Layer 7) and Advanced Routing(Headers, Query Params, Path and Host Based)
-            - Network Load Balancer: For very high performance usecases
-       </p>
-        </details>
+            1 Classic Load Balancer: Old generation. Not Recommended by AWS.
+            2 Application Load Balancer: Most popular and frequently used ELB in AWS. Supports HTTP/HTTPS (Layer 7) and Advanced Routing(Headers, Query Params, Path and Host Based)
+            3 Network Load Balancer: For very high performance usecases
+        </p>
+    </details>
+
 
 38. Which of these AWS services can be used to protect your web applications from malicious requests from specific IP Addresses?
     - A. AWS WAF (Web Application Firewall)
@@ -703,6 +696,7 @@
        </p>
         </details>
 
+
 47. Which of these AWS services gives you real-time guidance to help you provision your resources following AWS best practices?
     - A. AWS Trusted Advisor
     - B. AWS CloudTrail
@@ -721,6 +715,7 @@
                 - Service Limits: Is your usage is more than 80% of service limits?
        </p>
         </details>
+
 
 48. Which of these IAM entities can have policies attached with them?
     - A. All of the Above
@@ -794,6 +789,7 @@
        </p>
         </details>
 
+
 53. Which of these AWS services provides inventory of your AWS resources including resource history?
     - A. Amazon CloudWatch
     - B. AWS CloudTrail
@@ -817,8 +813,7 @@
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
         <p>
-        Explanation:  
-- Amazon CloudWatch Metrics - Metrics for AWS services Example EC2: CPUUtilization, NetworkIn, NetworkOut
+        Explanation: Amazon CloudWatch Metrics - Metrics for AWS services Example EC2: CPUUtilization, NetworkIn, NetworkOut
    </p>
     </details>
 
@@ -838,6 +833,7 @@
                 - Use IAM Users Credentials - access key ID and secret access key
        </p>
         </details>
+
 
 56. Which of these architectural principles helps you to avoid cascading failures while architecting your cloud applications?
     - A. Maintain Redundancy
@@ -895,6 +891,7 @@
        </p>
         </details>
 
+
 60. Compared to the traditional approach (data centers), how is cloud different?
     - A. Increased capital expenditure (capex) and reduced operational expenditure (opex)
     - B. Reduced capital expenditure (capex) and increased operational expenditure (opex)
@@ -915,6 +912,7 @@
          </p>
           </details>
 
+
 61. Which of these can be used to setup a MySQL database in AWS? (Select 2)
     - A. Amazon RDS
     - B. Amazon EC2
@@ -926,10 +924,11 @@
       Correct answer: A B
         <p>
         Explanation: 
-            - Use Managed Service : Amazon RDS
-            - Setup your own database: Amazon EC2 + Elastic Block Store (Amazon EBS)
-   </p>
+            1 Use Managed Service : Amazon RDS
+            2 Setup your own database: Amazon EC2 + Elastic Block Store (Amazon EBS)
+        </p>
     </details>
+
 
 62. Which of these is an AWS managed service to allow instances in a private subnet to download software patches while denying inbound traffic from the internet?
     - A. Internet Gateway
@@ -946,6 +945,7 @@
                 - NAT Instance: Install an EC2 instance with specific NAT AMI and configure as a gateway
        </p>
         </details>
+
 
 63. Which of these is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates?
     - A. AWS CodePipeline
@@ -1708,7 +1708,7 @@ Which of the following are advantages of this migration? (Choose two.)
 </p>
     </details>
 
-118. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+119. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
     - A. Amazon GuardDuty
     - B. Amazon Macie
     - C. AWS IAM Access Analyzer
@@ -1722,7 +1722,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. An enterprise is evaluating whether to adopt AWS to offload most of their on-premise Virtual Machines to Ec2. The enterprise does not have much domain expertise, and they need a point of contact that will help proactively manage their account and connect them with AWS experts. Which Enterprise offering does this best describe?
+120. An enterprise is evaluating whether to adopt AWS to offload most of their on-premise Virtual Machines to Ec2. The enterprise does not have much domain expertise, and they need a point of contact that will help proactively manage their account and connect them with AWS experts. Which Enterprise offering does this best describe?
     - A. AWS Technical Support
     - B. Concierge Support Team
     - C. TAM
@@ -1734,7 +1734,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
+121. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
     - A. Enable Cost and Usage Reports
     - B. Create a Billing Alarm
     - C. Enable Billing Alerts
@@ -1747,7 +1747,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following are examples of Capital Expenses (CAPEX)?
+122. Which of the following are examples of Capital Expenses (CAPEX)?
     - A. IT Personnel
     - B. Subscription for software license
     - C. Datacenter Costs
@@ -1760,7 +1760,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following can not be used to work with AWS services programmatically?
+123. Which of the following can not be used to work with AWS services programmatically?
     - A. AWS SDK
     - B. AWS Console
     - C. AWS CLI
@@ -1772,7 +1772,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
+124. Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
     - A. Network Access Control Lists
     - B. None of these
     - C. Route Tables
@@ -1784,7 +1784,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. You are planning on deploying a video-based application onto the AWS Cloud. Users across the world will access these videos. Which of the below services can help efficiently stream the content to users across the globe?
+125. You are planning on deploying a video-based application onto the AWS Cloud. Users across the world will access these videos. Which of the below services can help efficiently stream the content to users across the globe?
     - A. Amazon SES
     - B. Amazon CloudFront
     - C. Amazon S3
@@ -1796,7 +1796,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following are components of the AWS Compliance Programs? choose 3
+126. Which of the following are components of the AWS Compliance Programs? choose 3
     - A. Laws, Regulations, and Privacy
     - B. Certifications and Attestations
     - C. Following industry best practices
@@ -1809,7 +1809,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following statements are FALSE when it comes to elasticity?
+127. Which of the following statements are FALSE when it comes to elasticity?
      - A. Diverting traffic across multiple regions
      - B. Diverting traffic to instances with high loads
      - C. Diverting traffic to instances with the least load
@@ -1821,7 +1821,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which is a significant financial benefit of shifting on-premises data center systems to AWS?
+128. Which is a significant financial benefit of shifting on-premises data center systems to AWS?
      - A. Replaces upfront operational expenses (OPEX) with low variable operational expenses (OPEX) over time
      - B. Replaces upfront capital expenses (CAPEX) with low variable costs over time
      - C. CAPEX upfront costs are lower, adding increased privacy and security as well as computing power over time
@@ -1833,7 +1833,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following does AWS perform on its behalf for EBS volumes to make it less prone to failure?
+129. Which of the following does AWS perform on its behalf for EBS volumes to make it less prone to failure?
      - A. Replication of the volume across Availability Zones
      - B. Replication of the volume in the same Availability Zone
      - C. Replication of the volume across Edge locations
@@ -1845,7 +1845,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. Which of the following services is most useful when a Disaster Recovery method is triggered in AWS?
+130. Which of the following services is most useful when a Disaster Recovery method is triggered in AWS?
      - A. Amazon SNS
      - B. Amazon Route 53
      - C. Amazon Inspector
@@ -1857,7 +1857,7 @@ AWS IAM Access Analyzer helps you identify the resources in your organization an
 </p>
     </details>
 
-118. A company is exploring the AWS services and wants a tool or method to estimate the cost that fits their business use case.
+131. A company is exploring the AWS services and wants a tool or method to estimate the cost that fits their business use case.
 Which of the following would help them model their solutions and estimate the calculated cost for the services needed?
      - A. AWS Config
      - B. AWS Pricing Calculator
@@ -1870,7 +1870,49 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-118. Question?
+132. A company wants to make an upfront commitment for continued use of its production Amazon EC2 instances in exchange for a reduced overall cost.
+     Which pricing options meet these requirements with the LOWEST cost? (Choose two.)
+     - A. Spot Instances
+     - B. On-Demand Instances
+     - C. Reserved Instances
+     - D. Savings Plans
+     - E. Dedicated Hosts
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C D
+        <p>
+            Explanation: We can rule out Spot instances since this is a production environment.
+            So the right answers are:
+            C. Reserved Instances: Reserved Instances provide a significant discount (up to 75%) compared to On-Demand pricing in exchange for a one-time upfront payment and/or a lower hourly rate. The more you commit, the greater the discount.
+            D. Savings Plans: Savings Plans offer flexible pricing and savings on your AWS usage, with discounts of up to 72% compared to On-Demand pricing. With Savings Plans, you commit to a certain amount of usage (measured in dollars per hour) for a one- or three-year term, and receive a lower rate for that usage.
+</p>
+    </details>
+
+133. A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch.
+     Which AWS Support plan offers guidance and support for this kind of event at no additional charge?
+     - A. AWS Business Support
+     - B. AWS Basic Support
+     - C. AWS Developer Support
+     - D. AWS Enterprise Support
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A
+        <p>
+        Explanation: But "AWS count down" premium - a service which has these features are offerd to Business, Enterprise on-ramp and Enterprise support for an additional fee. "AWS Countdown Premium is available for Business Support customers as a monthly subscription for an additional fee." " no additional cost" is misleading.
+</p>
+    </details>
+
+134. Which AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?
+     - A. AWS WAF
+     - B. AWS Global Accelerator
+     - C. AWS Shield
+     - D. AWS Direct Connect
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: B
+        <p>
+        Explanation: AWS Global Accelerator: A service that uses static IP addresses to route traffic over the AWS global network to optimal AWS endpoints based on health, geography, and routing policies. It provides highly available and performant applications with features like fast failover for multi-Region and Multi-AZ (Availability Zone) architectures.
+</p>
+    </details>
+
+135. Question?
      - A.
      - B.
      - C.
@@ -1882,7 +1924,7 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-118. Question?
+136. Question?
      - A.
      - B.
      - C.
@@ -1894,7 +1936,7 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-118. Question?
+137. Question?
      - A.
      - B.
      - C.
@@ -1905,41 +1947,3 @@ Which of the following would help them model their solutions and estimate the ca
         Explanation: 
 </p>
     </details>
-
-118. Question?
-     - A.
-     - B.
-     - C.
-     - D.
-     <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
-        <p>
-        Explanation: 
-</p>
-    </details>
-
-118. Question?
-     - A.
-     - B.
-     - C.
-     - D.
-     <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
-        <p>
-        Explanation: 
-</p>
-    </details>
-
-118. Question?
-     - A.
-     - B.
-     - C.
-     - D.
-     <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
-        <p>
-        Explanation: 
-</p>
-    </details>
-
-Which of the following can not be used to work with AWS services programmatically?
