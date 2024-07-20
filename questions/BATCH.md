@@ -2022,64 +2022,66 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 
-144. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+144. A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console.
+     Which AWS service or resource will meet this requirement?
+     - A. S3 Multi-Region Access Points
+     - B. S3 Storage Lens
+     - C. AWS IAM Identity Center (AWS Single Sign-On)
+     - D. Access Analyzer for S3
      <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
+     Correct answer: D
         <p>
-        Explanation: 
+        Explanation: Access Analyzer for S3: This service is designed to review and analyze access policies for S3 buckets, providing insights into who has access to your buckets and how that access is granted. It is the most suitable option for the specified requirement.
 </p>
     </details>
 
 
-145. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+145. Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?
+     - A. Route table
+     - B. AWS Transit Gateway
+     - C. AWS Global Accelerator
+     - D. Amazon VPC
      <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
+     Correct answer: C
         <p>
-        Explanation: 
+        Explanation: AWS Global Accelerator: A service that uses the AWS global network to optimize the routing of traffic to applications. It improves the availability and performance of applications by utilizing anycast IP addresses. It specifically improves network
 </p>
     </details>
 
-146. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+146. Which AWS service or tool can be used to set up a firewall to control traffic going into and coming out of an Amazon VPC subnet?
+     - A. Security group
+     - B. AWS WAF
+     - C. AWS Firewall Manager
+     - D. Network ACL
      <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
+     Correct answer: C
         <p>
-        Explanation: 
+        Explanation: The Question states "AWS service or tool can be 'used' to set up a firewall" So option is C. And Network ACL is not a AWS service or tool. Correct me if i am wrong.
 </p>
     </details>
 
-147. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+147. A company is running a workload in the AWS Cloud.
+     Which AWS best practice ensures the MOST cost-effective architecture for the workload?
+     - A. Loose coupling
+     - B. Rightsizing
+     - C. Caching
+     - D. Redundancy
      <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
+     Correct answer: B
         <p>
-        Explanation: 
+        Explanation: Right sizing is the process of matching instance types and sizes to your workload performance and capacity requirements at the lowest possible cost.
 </p>
     </details>
 
-148. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+148. Which AWS tool gives users the ability to plan their service usage, service costs, and instance reservations, and also allows them to set custom alerts when their costs or usage exceed established thresholds?
+     - A. Cost Explorer
+     - B. AWS Budgets
+     - C. AWS Cost and Usage Report
+     - D. Reserved Instance reporting
      <details markdown=1><summary markdown='span'>Answer</summary>
-     Correct answer: E
+     Correct answer: B
         <p>
-        Explanation: 
+        Explanation: AWS Budgets is the tool that provides users with the ability to plan their service usage, service costs, and instance reservations. It allows users to set custom budgets based on various criteria such as cost, usage, or reservation utilization. Users can also set up custom alerts to be notified when their costs or usage exceed established thresholds, helping them to manage their AWS spending effectively.
 </p>
     </details>
 
