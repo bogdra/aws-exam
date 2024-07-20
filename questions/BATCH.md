@@ -2085,11 +2085,256 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
+149. A developer needs to block specific IP addresses from reaching an EC2 instance. Which AWS Networking component can meet this requirement?
+     - A. Security Groups
+     - B. ACLs
+     - C. AWS IP Block
+     - D. IAM Policy
+     - E. NACLs
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: NACLs can have both ALLOW or DENY rules. Security Groups only let you use ALLOW rules meaning that Security Groups, by default, DENY all addresses and ports. You'd have to create ALLOW rules for the rest of the internet and exclude the one IP address. This would not be feasible.
+</p>
+    </details>
+
+149. What is the AWS Personal Health Dashboard?
+    - A. detects Protected health information (PHI) within AWS storage and database accounts
+    - B. provides real-time updates about COVID-19 vaccination status
+    - C. alerts and guidance for AWS events that might affect your environment
+    - D. a service that integrates with the AWS smart bracelet to monitor your health
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: AWS Personal Health Dashboard provides alerts and guidance for AWS events that might affect your environment. While the Service Health Dashboard shows the general status of AWS services, the Personal Health Dashboard provides proactive and transparent notifications about your specific AWS environment. All AWS customers can access the Personal Health Dashboard. The Personal Health Dashboard shows recent events to help you manage active events, and shows proactive notifications so that you can plan for scheduled activities. Use these alerts to get notified about changes that can affect your AWS resources, and then follow the guidance to diagnose and resolve issues.
+</p>
+    </details>
+
+149. What is the recommended measure for protecting your root account?
+    - A. Delete all access keys
+    - B. Principle of Least Priviledge
+    - C. Rotate secret keys
+    - D. Write down your password on paper and store it in a vault
+    - E. MFA
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A E
+        <p>
+        Explanation:  you should never use access keys for your root account. You should turn on multi-factor authentication for your root account
+</p>
+    </details>
+
+149. What is the recommended measure for protecting your root account?
+    - A. Delete all access keys
+    - B. Principle of Least Priviledge
+    - C. Rotate secret keys
+    - D. Write down your password on paper and store it in a vault
+    - E. MFA
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A E
+        <p>
+        Explanation: you should never use access keys for your root account. You should turn on multi-factor authentication for your root account
+</p>
+    </details>
+
+149. Which of the following AWS security services enable you to implement a collection of security measures and adjustments? Select 2
+    - A. AWS GuardRails
+    - B. AWS Managed Rules
+    - C. AWS Security Hub
+    - D. AWS Config
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C D
+        <p>
+        Explanation: AWS Security Hub is designed to centralize and aggregate security findings from across various AWS services and AWS Partner Network (APN) security solutions. Its primary purpose is to provide users with a comprehensive view of their security and compliance status, making it easier to manage and improve their security posture. By consolidating alerts and conducting automated compliance checks, Security Hub offers a platform for implementing a broad range of security measures and adjustments across an AWS environment. This functionality aligns directly with the criteria of enabling the implementation of a collection of security measures, making it a correct choice. The service's primary function is to track and manage the configurations of AWS resources, enabling users to audit and evaluate their configurations against desired guidelines. AWS Config provides detailed reports on resource configuration history, changes, and compliance with the defined configurations. This capability is crucial for governance, compliance, and risk assessment, allowing organizations to implement security measures through configuration management and compliance validation. Therefore, AWS Config correctly fits the criterion as it enables organizations to implement and adjust security measures based on configuration and compliance data.
+</p>
+    </details>
+
+149. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+    - A. Amazon Macie
+    - B. S3 Bucket Scanner
+    - C. Amazon GuardDuty
+    - D. Amazon Detector
+    - D. AWS IAM Access Analyzer
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A E
+        <p>
+        Explanation: Macie automatically and continually evaluates all of your S3 buckets and alerts you to any unencrypted buckets, publicly accessible buckets, or buckets shared with AWS accounts outside those you have defined in the AWS Organizations. AWS IAM Access Analyzer helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, shared with an external entity. This lets you identify unintended access to your resources and data, which is a security risk. Access Analyzer identifies resources shared with external principals by using logic-based reasoning to analyze the resource-based policies in your AWS environment.
+</p>
+    </details>
+
+149. An organization wants to programmatically observe if pricing information for various EC2 instance sizes changes within their region. How would this organization accomplish this?
+    - A. AWS Budgets
+    - B. AWS Pricing SDK
+    - C. AWS Pricing API
+    - D. AWS Pricing Calculator
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: AWS Price List Service API is a centralized and convenient way to programmatically query AWS for services, products, and pricing information. The Price List Service API uses standardized product attributes such as Location, Storage Class, and Operating System, and provides prices at the SKU level. You can use Price List Service to build cost control and scenario planning tools, reconcile billing data, forecast future spending for budgeting purposes, and provide cost-benefit analyses that compare your internal workloads with AWS. The query API does not support Savings Plans prices.
+</p>
+    </details>
+
+149. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel. Which AWS Billing service would meet this requirement?
+    - A. AWS Pricing Calculator
+    - B. AWS Budgets
+    - C. AWS Cost and Usage Reports
+    - D. AWS Cost Explorer
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel. Which AWS Billing service would meet this requirement?
+    - A. AWS Pricing Calculator
+    - B. AWS Budgets
+    - C. AWS Cost and Usage Reports
+    - D. AWS Cost Explorer
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: The AWS Cost and Usage Reports (AWS CUR) contains the most comprehensive set of cost and usage data available. You can use Cost and Usage Reports to publish your AWS billing reports to an Amazon Simple Storage Service (Amazon S3) bucket that you own. You can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself. AWS updates the report in your bucket once a day in comma-separated value (CSV) format. You can view the reports using spreadsheet software such as Microsoft Excel or Apache OpenOffice Calc, or access them from an application using the Amazon S3 API.
+</p>
+    </details>
+
+149. Which AWS service is used to calculate the Total Cost of Ownership?
+    - A. AWS Cost Explorer
+    - B. AWS Budgets
+    - C. AWS Pricing Calculator
+    - D. TCO Calculator
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: C
+        <p>
+        Explanation: The AWS Pricing Calculator is the recommended tool for estimating the cost of AWS services and calculating the Total Cost of Ownership. It allows users to model and compare different configurations and scenarios, making it suitable for both initial cost estimations and ongoing cost management. 
+</p>
+    </details>
+
+149. What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
+    - A. Logs
+    - B. Events Streams
+    - C. Dev/prod parity
+    - D. Breakability
+    - E. Disposability
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: A C E
+        <p>
+        Explanation: Logs (treat logs as event streams) – If part of a system fails, troubleshooting is necessary. Ensure that material for forensics exists. Dev/prod parity – Keep development, staging, and production as similar as possible. Disposability (maximize robustness with fast startup and graceful shutdown) – Produce lean container images and strive for processes that can start and stop in a matter of seconds.
+</p>
+    </details>
+
 149. Question?
-     - A.
-     - B.
-     - C.
-     - D.
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
+     <details markdown=1><summary markdown='span'>Answer</summary>
+     Correct answer: E
+        <p>
+        Explanation: 
+</p>
+    </details>
+
+149. Question?
+    - A.
+    - B.
+    - C.
+    - D.
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
