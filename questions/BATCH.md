@@ -1950,10 +1950,11 @@ Which of the following would help them model their solutions and estimate the ca
 
 
 138. Which of the following are attributes to the costing for using the Simple Storage Service. Choose 2 answers from the options given below . Choose 2
-    - A. Using encryption in S3
-    - B. Number of S3 buckets
-    - C. The storage class used for the objects stored.
-    - D. The total size in gigabytes of all objects stored.
+   - A. Using encryption in S3
+   - B. Number of S3 buckets
+   - C. The storage class used for the objects stored.
+   - D. The total size in gigabytes of all objects stored.
+
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C D
         <p>
@@ -1962,10 +1963,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 139. How do you backup an EBS Volume?
-    - A. Store Backups in Glacier
-    - B. EBS Automatic Backups
-    - C. Store Backups in S3
-    - D. EBS Snapshot
+   - A. Store Backups in Glacier
+   - B. EBS Automatic Backups
+   - C. Store Backups in S3
+   - D. EBS Snapshot
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -1974,10 +1975,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 140. A company wants to utilize AWS storage. For them, low storage cost is paramount, the data is rarely retrieved, and data retrieval times of several hours are acceptable for them. What is the best storage option to use?
-    - A. AWS CloudFront
-    - B. EBS-backed storage connected to EC2
-    - C. AWS S3 Reduced Redundancy Storage
-    - D. AWS Glacier
+   - A. AWS CloudFront
+   - B. EBS-backed storage connected to EC2
+   - C. AWS S3 Reduced Redundancy Storage
+   - D. AWS Glacier
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -1986,10 +1987,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 141. What is the service provided by AWS that allows developers to easily deploy and manage applications on the cloud?
-    - A. Container service
-    - B. Opswork
-    - C. CloudFormation
-    - D. Elastic Beanstalk
+   - A. Container service
+   - B. Opswork
+   - C. CloudFormation
+   - D. Elastic Beanstalk
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -1998,10 +1999,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 142. You want to take a snapshot of an EC2 Instance and create a new instance out of it. In AWS what is this snapshot equivalent to?
-    - A. EBS Snapshot
-    - B. EC2 Snapshot
-    - C. EBS Volumes
-    - D. AMI
+   - A. EBS Snapshot
+   - B. EC2 Snapshot
+   - C. EBS Volumes
+   - D. AMI
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -2010,11 +2011,12 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 143. Which of the following AWS services should you use to migrate an existing database to AWS?
-    - A. AWS Snowball
-    - B. AWS Storage gateway
-    - C. AWS Lambda
-    - D. AWS DMS
-     <details markdown=1><summary markdown='span'>Answer</summary>
+   - A. AWS Snowball
+   - B. AWS Storage gateway
+   - C. AWS Lambda
+   - D. AWS DMS
+
+   <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
         Explanation:  AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases.
@@ -2022,8 +2024,7 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 
-144. A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console.
-     Which AWS service or resource will meet this requirement?
+144. A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console. Which AWS service or resource will meet this requirement?
      - A. S3 Multi-Region Access Points
      - B. S3 Storage Lens
      - C. AWS IAM Identity Center (AWS Single Sign-On)
@@ -2099,10 +2100,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 150. What is the AWS Personal Health Dashboard?
-    - A. detects Protected health information (PHI) within AWS storage and database accounts
-    - B. provides real-time updates about COVID-19 vaccination status
-    - C. alerts and guidance for AWS events that might affect your environment
-    - D. a service that integrates with the AWS smart bracelet to monitor your health
+   - A. detects Protected health information (PHI) within AWS storage and database accounts
+   - B. provides real-time updates about COVID-19 vaccination status
+   - C. alerts and guidance for AWS events that might affect your environment
+   - D. a service that integrates with the AWS smart bracelet to monitor your health
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C
         <p>
@@ -2111,11 +2112,11 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 151. What is the recommended measure for protecting your root account?
-    - A. Delete all access keys
-    - B. Principle of Least Priviledge
-    - C. Rotate secret keys
-    - D. Write down your password on paper and store it in a vault
-    - E. MFA
+   - A. Delete all access keys
+   - B. Principle of Least Priviledge
+   - C. Rotate secret keys
+   - D. Write down your password on paper and store it in a vault
+   - E. MFA
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A E
         <p>
@@ -2124,11 +2125,11 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 152. What is the recommended measure for protecting your root account?
-    - A. Delete all access keys
-    - B. Principle of Least Priviledge
-    - C. Rotate secret keys
-    - D. Write down your password on paper and store it in a vault
-    - E. MFA
+   - A. Delete all access keys
+   - B. Principle of Least Priviledge
+   - C. Rotate secret keys
+   - D. Write down your password on paper and store it in a vault
+   - E. MFA
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A E
         <p>
@@ -2137,10 +2138,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 153. Which of the following AWS security services enable you to implement a collection of security measures and adjustments? Select 2
-    - A. AWS GuardRails
-    - B. AWS Managed Rules
-    - C. AWS Security Hub
-    - D. AWS Config
+   - A. AWS GuardRails
+   - B. AWS Managed Rules
+   - C. AWS Security Hub
+   - D. AWS Config
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C D
         <p>
@@ -2149,11 +2150,11 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 154. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
-    - A. Amazon Macie
-    - B. S3 Bucket Scanner
-    - C. Amazon GuardDuty
-    - D. Amazon Detector
-    - D. AWS IAM Access Analyzer
+   - A. Amazon Macie
+   - B. S3 Bucket Scanner
+   - C. Amazon GuardDuty
+   - D. Amazon Detector
+   - D. AWS IAM Access Analyzer
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A E
         <p>
@@ -2162,10 +2163,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 155. An organization wants to programmatically observe if pricing information for various EC2 instance sizes changes within their region. How would this organization accomplish this?
-    - A. AWS Budgets
-    - B. AWS Pricing SDK
-    - C. AWS Pricing API
-    - D. AWS Pricing Calculator
+   - A. AWS Budgets
+   - B. AWS Pricing SDK
+   - C. AWS Pricing API
+   - D. AWS Pricing Calculator
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C
         <p>
@@ -2174,10 +2175,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 156. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel. Which AWS Billing service would meet this requirement?
-    - A. AWS Pricing Calculator
-    - B. AWS Budgets
-    - C. AWS Cost and Usage Reports
-    - D. AWS Cost Explorer
+   - A. AWS Pricing Calculator
+   - B. AWS Budgets
+   - C. AWS Cost and Usage Reports
+   - D. AWS Cost Explorer
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: E
         <p>
@@ -2186,10 +2187,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 157. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel. Which AWS Billing service would meet this requirement?
-    - A. AWS Pricing Calculator
-    - B. AWS Budgets
-    - C. AWS Cost and Usage Reports
-    - D. AWS Cost Explorer
+   - A. AWS Pricing Calculator
+   - B. AWS Budgets
+   - C. AWS Cost and Usage Reports
+   - D. AWS Cost Explorer
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C
         <p>
@@ -2198,10 +2199,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 158. Which AWS service is used to calculate the Total Cost of Ownership?
-    - A. AWS Cost Explorer
-    - B. AWS Budgets
-    - C. AWS Pricing Calculator
-    - D. TCO Calculator
+   - A. AWS Cost Explorer
+   - B. AWS Budgets
+   - C. AWS Pricing Calculator
+   - D. TCO Calculator
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C
         <p>
@@ -2210,11 +2211,11 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 159. What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
-    - A. Logs
-    - B. Events Streams
-    - C. Dev/prod parity
-    - D. Breakability
-    - E. Disposability
+   - A. Logs
+   - B. Events Streams
+   - C. Dev/prod parity
+   - D. Breakability
+   - E. Disposability
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A C E
         <p>
@@ -2222,13 +2223,12 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-160. A company is planning to migrate applications to the AWS Cloud. During a system audit, the company finds that its content management system (CMS) application is incompatible with cloud environments.I
-     Which migration strategies will help the company to migrate the CMS application with the LEAST effort? (Choose two.)
-    - A. Retire
-    - B. Rehost
-    - C. Repurchase
-    - D. Replatform
-    - E. Refactor
+160. A company is planning to migrate applications to the AWS Cloud. During a system audit, the company finds that its content management system (CMS) application is incompatible with cloud environments.I Which migration strategies will help the company to migrate the CMS application with the LEAST effort? (Choose two.)
+   - A. Retire
+   - B. Rehost
+   - C. Repurchase
+   - D. Replatform
+   - E. Refactor
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A C
         <p>
@@ -2236,11 +2236,11 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-161. Witch AWS service or feature gives usersthe ability to connect VPCs and on-premises networks to a central hub?
-    - A. Virtual private gateway
-    - B. AWS Transit Gateway
-    - C. Internet Gateway
-    - D. Customer gateway
+161. Witch AWS service or feature gives users the ability to connect VPCs and on-premises networks to a central hub?
+   - A. Virtual private gateway
+   - B. AWS Transit Gateway
+   - C. Internet Gateway
+   - D. Customer gateway
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: B
         <p>
@@ -2249,10 +2249,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 162. A company wants to use a centralized AWS service to enforce compliance with the organizational business standards. The company wants to use an AWS service that can govern and control who can deploy, manage, and decommission AWS resources. Which AWS service will meet these requirements?
-    - A. Amazon CloudWatch
-    - B. AWS Service Catalog
-    - C. Amazon Guard Duty
-    - D. AWS Security Hub
+   - A. Amazon CloudWatch
+   - B. AWS Service Catalog
+   - C. Amazon Guard Duty
+   - D. AWS Security Hub
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: B
         <p>
@@ -2261,10 +2261,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 163. Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the business perspective?
-    - A. Program and project management
-    - B. Data science
-    - C. Observability
-    - D. Change and release management
+   - A. Program and project management
+   - B. Data science
+   - C. Observability
+   - D. Change and release management
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: B
         <p>
@@ -2272,13 +2272,12 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-164. A company is hosting an application in the AWS Cloud. The company wants to verify that underlying AWS services and general AWS infrastructure are operating normally.
-     Which combination of AWS services can the company use to gather the required information? (Choose two.)
-    - A. AWS Personal Health Dashboard
-    - B. AWS Systems Manager
-    - C. AWS Trusted Advisor
-    - D. AWS Service Health Dashboard
-    - E. AWS Service Catalog
+164. A company is hosting an application in the AWS Cloud. The company wants to verify that underlying AWS services and general AWS infrastructure are operating normally. Which combination of AWS services can the company use to gather the required information? (Choose two.)
+   - A. AWS Personal Health Dashboard
+   - B. AWS Systems Manager
+   - C. AWS Trusted Advisor
+   - D. AWS Service Health Dashboard
+   - E. AWS Service Catalog
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A E
         <p>
@@ -2286,12 +2285,11 @@ Which of the following would help them model their solutions and estimate the ca
 </p>
     </details>
 
-165. A company wants to migrate its PostgreSQL database to AWS. The company does not use the database frequently.
-      Which AWS service or resource will meet these requirements with the LEAST management overhead?
-    - A. PostgreSQL on Amazon EC2
-    - B. Amazon RDS for PostgreSQL
-    - C. Amazon Aurora PostgreSQL-Compatible Edition
-    - D. Amazon Aurora Serverless
+165. A company wants to migrate its PostgreSQL database to AWS. The company does not use the database frequently. Which AWS service or resource will meet these requirements with the LEAST management overhead?
+   - A. PostgreSQL on Amazon EC2
+   - B. Amazon RDS for PostgreSQL
+   - C. Amazon Aurora PostgreSQL-Compatible Edition
+   - D. Amazon Aurora Serverless
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -2300,10 +2298,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 166. Which of the following is a managed AWS service that is used specifically for extract, transform, and load (ETL) data?
-    - A. Amazon Athena
-    - B. AWS Glue
-    - C. Amazon S3
-    - D. AWS Snowball Edge
+   - A. Amazon Athena
+   - B. AWS Glue
+   - C. Amazon S3
+   - D. AWS Snowball Edge
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: B
         <p>
@@ -2312,10 +2310,10 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 167. Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes a capability well-designed data and analytics architecture?
-    - A. Security
-    - B. Governance
-    - C. Operations
-    - D. Platform
+   - A. Security
+   - B. Governance
+   - C. Operations
+   - D. Platform
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: D
         <p>
@@ -2325,10 +2323,10 @@ Which of the following would help them model their solutions and estimate the ca
 
 168. A company needs a bridge between technology and business to help evolve to a culture of continuous growth and learning.
      Which perspective in the AWS Cloud Adoption Framework (AWS CAF) serves as this bridge?
-    - A. People
-    - B. Governance
-    - C. Operations
-    - D. Security
+   - A. People
+   - B. Governance
+   - C. Operations
+   - D. Security
      <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: A
         <p>
@@ -2337,40 +2335,40 @@ Which of the following would help them model their solutions and estimate the ca
     </details>
 
 169. Which AWS service or resource can identify and provide reports on IAM resources in one AWS account that is shared with another AWS account?
-    - A. IAM credential report
-    - B. AWS IAM Identity Center (AWS Single Sign-On)
-    - C. AWS Identity and Access Management Access Analyzer
-    - D. Amazon Cognito user pool
+   - A. IAM credential report
+   - B. AWS IAM Identity Center (AWS Single Sign-On)
+   - C. AWS Identity and Access Management Access Analyzer
+   - D. Amazon Cognito user pool
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 170. A company wants to use machine learning capabilities to analyze log data from its Amazon EC2 instances and efficiently conduct security investigations.
    Which AWS service will meet these requirements?
-    - A. Amazon Inspector
-    - B. Amazon QuickSight
-    - C. Amazon Detective
-    - D. Amazon GuardDuty
+   - A. Amazon Inspector
+   - B. Amazon QuickSight
+   - C. Amazon Detective
+   - D. Amazon GuardDuty
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 
 171. Which complimentary AWS service or tool creates data-driven business cases for cloud planning?
-    - A.Migration Evaluator
-    - B.AWS Billing Conductor
-    - C.AWS Billing Console
-    - D.Amazon Forecast
+   - A.Migration Evaluator
+   - B.AWS Billing Conductor
+   - C.AWS Billing Console
+   - D.Amazon Forecast
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 172. A company wants to define a central data protection policy that works across AWS services for compute, storage, and database resources.
    Which AWS service will meet this requirement?
-    - A.AWS Batch
-    - B.AWS Elastic Disaster Recovery
-    - C.AWS Backup
-    - D.Amazon FSx
+   - A.AWS Batch
+   - B.AWS Elastic Disaster Recovery
+   - C.AWS Backup
+   - D.Amazon FSx
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
@@ -2378,19 +2376,19 @@ Which of the following would help them model their solutions and estimate the ca
 
 173. A developer wants AWS users to access AWS services by using temporary security credentials.
    Which AWS service or feature should the developer use to provide these credentials?
-    - A. IAM policies
-    - B. IAM user groups
-    - C. AWS Security Token Service (AWS STS)
-    - D. AWS IAM Identity Center (AWS Single Sign-On)
+   - A. IAM policies
+   - B. IAM user groups
+   - C. AWS Security Token Service (AWS STS)
+   - D. AWS IAM Identity Center (AWS Single Sign-On)
     <details markdown=1><summary markdown='span'>Answer</summary>
      Correct answer: C
     </details>
 
 174. Which task can a company perform by using security groups in the AWS Cloud?
-    - A. Allow access to an Amazon EC2 instance through only a specific port.
-    - B. Deny access to malicious IP addresses at a subnet level.
-    - C. Protect data that is cached by Amazon CloudFront.
-    - D. Apply a stateless firewall to an Amazon EC2 instance.
+   - A. Allow access to an Amazon EC2 instance through only a specific port.
+   - B. Deny access to malicious IP addresses at a subnet level.
+   - C. Protect data that is cached by Amazon CloudFront.
+   - D. Apply a stateless firewall to an Amazon EC2 instance.
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
@@ -2398,30 +2396,30 @@ Which of the following would help them model their solutions and estimate the ca
 
 175. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys.
    What is the SIMPLEST way to provide this information?
-    - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
-    - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
-    - C. Download the IAM credential report, then provide the report to the auditor.
-    - D. Download the AWS Trusted Advisor report, then provide the report to the auditor.
+   - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
+   - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
+   - C. Download the IAM credential report, then provide the report to the auditor.
+   - D. Download the AWS Trusted Advisor report, then provide the report to the auditor.
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 
 176. Which AWS feature provides a no-cost platform for AWS users to join community groups, ask questions, find answers, and read community- generated articles about best practices?
-    - A. AWS Knowledge Center
-    - B. AWS re:Post
-    - C. AWS IQ
-    - D. AWS Enterprise Support
+   - A. AWS Knowledge Center
+   - B. AWS re:Post
+   - C. AWS IQ
+   - D. AWS Enterprise Support
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
 
 177. Which AWS Cloud deployment model uses AWS Outposts as part of the application deployment infrastructure?
-    - A. On-premises
-    - B. Serverless
-    - C. Cloud-native
-    - D. Hybrid
+   - A. On-premises
+   - B. Serverless
+   - C. Cloud-native
+   - D. Hybrid
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
@@ -2429,103 +2427,103 @@ Which of the following would help them model their solutions and estimate the ca
 
 178. A company's application developers need to quickly provision and manage AWS services by using scripts.
    Which AWS offering should the developers use to meet these requirements?
-    - A. AWS CLI
-    - B. AWS CodeBuild
-    - C. AWS Cloud Adoption Framework (AWS CAF)
-    - D. AWS Systems Manager Session Manager
+   - A. AWS CLI
+   - B. AWS CodeBuild
+   - C. AWS Cloud Adoption Framework (AWS CAF)
+   - D. AWS Systems Manager Session Manager
     <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: A
     </details>
 
 
 179. An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS Management Console. Which AWS service should be used to determine what action made this EC2 instance inaccessible?
-    - A. Amazon CloudWatch Logs
-    - B. AWS Security Hub
-    - C. Amazon Inspector
-    - D. AWS CloudTrail
+   - A. Amazon CloudWatch Logs
+   - B. AWS Security Hub
+   - C. Amazon Inspector
+   - D. AWS CloudTrail
     <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: D
     </details>
 
 
 180. A company plans to run a compute-intensive workload that uses graphics processing units (GPUs). Which Amazon EC2 instance type should the company use?
-    - A. Accelerated computing
-    - B. Compute optimized
-    - C. Storage optimized
-    - D. General purpose
+   - A. Accelerated computing
+   - B. Compute optimized
+   - C. Storage optimized
+   - D. General purpose
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 
 181. Which AWS services are supported by Savings Plans? (Choose two.)
-    - A. Amazon EC2
-    - B. Amazon RDS
-    - C. Amazon SageMaker
-    - D. Amazon Redshift
-    - D. Amazon DynamoDB
+   - A. Amazon EC2
+   - B. Amazon RDS
+   - C. Amazon SageMaker
+   - D. Amazon Redshift
+   - D. Amazon DynamoDB
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A C
     </details>
 
 
 182. A company wants to track tags, buckets, and prefixes for its Amazon S3 objects. Which S3 feature will meet this requirement?
-    - A. S3 Inventory report
-    - B. S3 Lifecycle
-    - C. S3 Versioning
-    - D. S3 ACLs
+   - A. S3 Inventory report
+   - B. S3 Lifecycle
+   - C. S3 Versioning
+   - D. S3 ACLs
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 
 183. A company launched an Amazon EC2 instance with the latest Amazon Linux 2 Amazon Machine Image (AMI). Which actions can a system administrator take to connect to the EC2 instance? (Choose two.)
-    - A. Use Amazon EC2 Instance Connect.
-    - B. Use a Remote Desktop Protocol (RDP) connection.
-    - C. Use AWS Batch.
-    - D. Use AWS Systems Manager Session Manager.
-    - D. Use Amazon Connect.
+   - A. Use Amazon EC2 Instance Connect.
+   - B. Use a Remote Desktop Protocol (RDP) connection.
+   - C. Use AWS Batch.
+   - D. Use AWS Systems Manager Session Manager.
+   - E. Use Amazon Connect.
     <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: A D
     </details>
 
 
 184. Which task requires a user to sign in as the AWS account root user?
-    - A. The deletion of IAM users
-    - B. The deletion of an AWS account
-    - C. The creation of an organization in AWS Organizations
-    - D. The deletion of Amazon EC2 instances
+   - A. The deletion of IAM users
+   - B. The deletion of an AWS account
+   - C. The creation of an organization in AWS Organizations
+   - D. The deletion of Amazon EC2 instances
     <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: B
     </details>
 
 
 185. Which design principles should a company apply to AWS Cloud workloads to maximize sustainability and minimize environmental impact? (Choose two.)
-    - A. Maximize utilization of Amazon EC2 instances
-    - B. Minimize utilization of Amazon EC2 instances.
-    - C. Minimize usage of managed services
-    - D. Force frequent application reinstallations by users.
-    - E. Reduce the need for users to reinstall applications.
+   - A. Maximize utilization of Amazon EC2 instances
+   - B. Minimize utilization of Amazon EC2 instances.
+   - C. Minimize usage of managed services
+   - D. Force frequent application reinstallations by users.
+   - E. Reduce the need for users to reinstall applications.
     <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: A E
     </details>
 
 
 186. When a user wants to utilize their existing per-socket, per-core, or per-virtual machine software licenses for a Microsoft Windows server running on AWS, which Amazon EC2 instance type is required?
-    - A. Spot Instances
-    - B. Dedicated Instances
-    - C. Dedicated Hosts
-    - D. Reserved Instances
-    <details markdown=1><summary markdown='span'>Answer</summary>
+   - A. Spot Instances
+   - B. Dedicated Instances
+   - C. Dedicated Hosts
+   - D. Reserved Instances
+   <details markdown=1><summary markdown='span'>Answer</summary>
         Correct answer: C
     </details>
 
 
 187. Which AWS service uses AWS Compute Optimizer to provide sizing recommendations based on workload metrics?
-    - A. Amazon EC2
-    - B. Amazon RDS
-    - C. Amazon Lightsail
-    - D. AWS Step Functions
+   - A. Amazon EC2
+   - B. Amazon RDS
+   - C. Amazon Lightsail
+   - D. AWS Step Functions
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
